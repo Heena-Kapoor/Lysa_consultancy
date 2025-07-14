@@ -1,0 +1,37 @@
+
+import feature_img_1 from "../../public/assets/img/feature/fea-icon-5-1.png"
+import feature_img_2 from "../../public/assets/img/feature/fea-icon-5-2.png"
+import feature_img_3 from "../../public/assets/img/feature/fea-icon-5-3.png"
+import feature_img_4 from "../../public/assets/img/feature/fea-icon-5-4.png"
+
+const service_data = [
+    {
+        id: 1,
+        color: "1",
+        img: feature_img_1,
+        title: <>Stronger Together</>,
+        description: <>From the very beginning to the very end, through good times and bad, we go above and beyond business transactions to satisfy our clients & create genuine, long-lasting human partnerships that help you realize your vision.</>,
+    },
+    {
+        id: 2,
+        color: "2",
+        img: feature_img_2,
+        title: <>We Are Proven</>,
+        description: <>Regardless of where you are in your journey, our team spans cultures, companies, and industries, bringing decades of experience and unparalleled technical expertise , helping enhance the IT governance of our clients.</>,
+    },
+    {
+        id: 3,
+        color: "3",
+        img: feature_img_3,
+        title: <>We Are Flexible</>,
+        description: <>We are aware that there is no one-size-fits-all solution in this industry. As our relationship evolves, we move as quickly (or slowly) as you require us to, easily adapting to any organizational structure, capital allocation level, and technical need.</>,
+    },
+    {
+        id: 4,
+        color: "4",
+        img: feature_img_4,
+        title: <>We Are Meticulous</>,
+        description: <>We have assisted hundreds of customers through complex technical transformations, continuously refining our processes, enhancing our solutions, and adapting to ever-evolving technologies to deliver lasting value and measurable results.</>,
+    },
+]
+export default service_data

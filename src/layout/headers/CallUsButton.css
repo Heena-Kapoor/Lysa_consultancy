@@ -1,0 +1,21 @@
+.call-us-button {
+  background-color: #fcb900;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  gap: 8px;
+}
+
+.call-us-button i {
+  font-size: 16px;
+  color: #fff;
+}
+
+.call-us-button:hover {
+  background-color: #e0a800;
+  color: #fff;
+}

@@ -1,0 +1,65 @@
+/* Reset basic styles */
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Top-level menu items */
+.main-menu > li {
+  position: relative;
+}
+
+.main-menu a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px 15px;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.main-menu a:hover {
+  background-color: #e2e2e2;
+  color: #000;
+}
+
+/* Submenu styling */
+.submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 200px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  display: none;
+  z-index: 1000;
+}
+
+.submenu li {
+  position: relative;
+}
+
+.submenu a {
+  padding: 10px 15px;
+  color: #333 !important;
+  display: block;
+}
+
+.submenu a:hover {
+  background-color: #f0f0f0;
+  text-decoration: none !important;
+}
+
+/* Show submenu on hover */
+li:hover > .submenu {
+  display: block;
+}
+
+/* Nested submenu styling */
+.submenu .submenu {
+  top: 0;
+  left: 100%;
+  border-left: none;
+  margin-left: 1px;
+}
