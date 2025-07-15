@@ -30,7 +30,7 @@ const footer_content = {
             { name: "About Us", link: "/about" },
             { name: "Devops", link: "/" },
             { name: "Cloud Services", link: "/" },
-            { name: "Database Services", link: "/" },
+            { name: "Database Services", link: "/database-services" },
             { name: "FAQs", link: "/faq" },
             { name: "Privacy Policy", link: "/privacy-policy" },
             { name: "Contact Us", link: "/contact" },
@@ -44,7 +44,7 @@ const footer_content = {
          delay: ".9s",
          links: [
             { name: "Upgrade & Migration", link: "#" },
-            { name: "Remote Dba support", link: "/" },
+            { name: "Remote Dba support", link: "/remote-dba-support" },
             { name: "Managed Cloud", link: "/" },
             { name: "High Availability", link: "/" },
             { name: "Cloud Migration", link: "/" },

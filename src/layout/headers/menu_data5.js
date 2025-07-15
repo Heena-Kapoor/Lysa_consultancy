@@ -25,10 +25,10 @@ const menu_data5 = [
         sub_menus: [
             {
                 title: "Database Services",
-                link: "/",
+                link: "/database-services",
                 has_dropdown: true,
                 sub_menus: [
-                    { link: "/", title: "Remote DBA Support" },
+                    { link: "/remote-dba-support", title: "Remote DBA Support" },
                     { link: "/", title: "Upgrade & Migration" },
                     { link: "/", title: "Managed Cloud Database Service" },
                     { link: "/", title: "High Availibility" }
