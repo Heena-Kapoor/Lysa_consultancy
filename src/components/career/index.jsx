@@ -3,7 +3,7 @@ import BreadcrumbThree from "@/common/breadcrumbs/breadcrumb-3";
 import FooterFive from "@/layout/footers/footer-5";
 import HeaderSix from "@/layout/headers/header-6";
 import PlatformArea from "../../common/platform-area";
-import JobArea from "../about/job-area";
+import JobArea from "../aboutNew.jsx/job-area";
 import CtaArea from "../contact/cta-area";
 import CarrerBanner from "./carrer-banner";
 

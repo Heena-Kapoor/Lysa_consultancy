@@ -26,14 +26,14 @@ const footer_content = {
          title: "Company",
          delay: ".7s",
          links: [
-            { name: "Home", link: "#" },
-            { name: "About Us", link: "/" },
+            { name: "Home", link: "/" },
+            { name: "About Us", link: "/about" },
             { name: "Devops", link: "/" },
             { name: "Cloud Services", link: "/" },
             { name: "Database Services", link: "/" },
-            { name: "FAQs", link: "/" },
-            { name: "Privacy Policy", link: "/" },
-            { name: "Contact Us", link: "/" },
+            { name: "FAQs", link: "/faq" },
+            { name: "Privacy Policy", link: "/privacy-policy" },
+            { name: "Contact Us", link: "/contact" },
          ]
       },
       {
@@ -63,7 +63,7 @@ const FooterFive = ({ style_contact, bg_style = true, style_team }) => {
 
    return (
       <>
-         <div className={`tp-footer__pl-pr ${style_contact && "pt-105"} ${bg_style ? 'grey-bg-2' : ''}`}>
+         <div className={`tp-footer__pl-pr ${style_contact && "pt-80"} ${bg_style ? 'grey-bg-2' : ''}`}>
             <div className={`tp-footer__area ${style_contact && "p-relative"} tp-footer__tp-border-bottom`}>
                {style_contact &&
                   <>

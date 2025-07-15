@@ -2,34 +2,32 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-
 import icon_1 from "@/assets/img/contact/contact-icon-sm-1.png";
 import icon_2 from "@/assets/img/contact/contact-icon-sm-2.png";
 import icon_3 from "@/assets/img/contact/contact-icon-sm-3.png";
 
-
 const inner_content = {
-  title: "Book a Demo!",
-  description: <>We will contact again after receive your request in 24h</>,
-
+  title: "Contact Us",
+  description: "Have questions? Contact us and we’ll be happy to help!",
   contact_data: [
     {
       id: 1,
       icon: icon_1,
-      title: "contact@softuch.com",
-      link: "mailto:contact@softuch.com",
+      title: "info@lysaconsultancy.com",
+      link: "mailto:info@lysaconsultancy.com",
     },
     {
       id: 2,
       icon: icon_2,
-      title: "+1-202-555-0144",
-      link: "tel:+1-202-555-0144",
+      title: "+91-8595363651",
+      link: "tel:+91-8595363651",
     },
     {
       id: 3,
       icon: icon_3,
-      title: "35Park Avenue, Uk",
-      link: "https://www.google.com.bd/maps/@23.7806365,90.4193257,12z",
+      title:
+        "LYSA Consultancy (OPC) Pvt. Ltd. F No. 16, PD6, Sec 6, Rohini, New Delhi, Delhi - 110085",
+      link: "https://maps.app.goo.gl/Wd1dkxV84CNQuBbW6",
     },
   ],
 };
@@ -38,11 +36,11 @@ const { title, description, contact_data } = inner_content;
 const ContactInner = () => {
   return (
     <>
-      <div className="contact-inner-area pb-130">
+      <div className="contact-inner-area pt-40 pb-30">
         <div className="container">
           <div className="row">
             <div className="col-xl-12">
-              <div className="contact-inner-title-sm-wrap text-center mb-50">
+              <div className="contact-inner-title-sm-wrap text-center mb-10">
                 <h4 className="contact-inner-title-sm">{title}</h4>
                 <p>{description}</p>
               </div>
@@ -56,16 +54,20 @@ const ContactInner = () => {
                     <div className="contact-inner-img contact-img-1">
                       <Image src={item.icon} alt="theme-pure" />
                     </div>
-                    <div className="contact-inner-link">
-                      <Link href={`${item.link}`}>{item.title}</Link>
-                    </div>
+                    <Link
+                      href={`${item.link}`}
+                      target="_blank"
+                      className="contact-inner-link"
+                    >
+                      {item.title}
+                    </Link>
                   </div>
                 </div>
               ))}
             </div>
           </div>
         </div>
-      </div> 
+      </div>
     </>
   );
 };

@@ -17,7 +17,7 @@ const {title, des, integraton_title, integraton_des}  = feature_content
 const FeatureArea = ({style_integraton}) => {
     return (
         <>
-            <div className={`tp-feature-area ${style_integraton ? "pt-100 pb-30" : "grey-bg-3 pt-120 pb-110"}`}>
+            <div className={`tp-feature-area ${style_integraton ? "pt-10 pb-30" : "grey-bg-3 pt-20 pb-110"}`}>
                   <div className="container">
                      <div className="row">
                         <div className="col-12">

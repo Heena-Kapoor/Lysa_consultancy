@@ -3,7 +3,7 @@ import BreadcrumbFive from "@/common/breadcrumbs/breadcrumb-5";
 import TestimonialArea from "@/common/testimonial-area";
 import FooterFive from "@/layout/footers/footer-5";
 import HeaderSix from "@/layout/headers/header-6";
-import Brand from "../about/brand";
+import Brand from "../aboutNew.jsx/brand";
 import CtaArea from "../contact/cta-area";
 import FaqArea from "../homes/home-2/faq-area";
 import PlanArea from "./plan-area";

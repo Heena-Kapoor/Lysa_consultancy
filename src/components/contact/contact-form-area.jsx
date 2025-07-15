@@ -9,8 +9,8 @@ import Image from 'next/image';
 
 const contact_content  = {
     sub_title: "CONTACT US",
-    tilte: <>We'd love to <br /> hear From  {" "}<span> <SendIcon /> </span> {" "}you.</>,
-    info: <>While we're good with smoke signals, there <br /> are easier ways to get in touch.</> ,
+    tilte: <>{" "}<span> <SendIcon /> </span> {" "} Need Help?</>,
+    info: <>Reach out to the world’s most reliable IT services.</> ,
      
 }
 const {sub_title, tilte, info}  =  contact_content
@@ -19,7 +19,7 @@ const {sub_title, tilte, info}  =  contact_content
 const ContactFormArea = () => {
     return (
         <>
-            <div className="contact-form-area pb-120">
+            <div className="contact-form-area pt-30 pb-50">
                <div className="container">
                   <div className="row gx-0">
                      <div className="col-xl-5 col-lg-6">
