@@ -31,7 +31,7 @@ const menu_data5 = [
                     { link: "/remote-dba-support", title: "Remote DBA Support" },
                     { link: "/", title: "Upgrade & Migration" },
                     { link: "/", title: "Managed Cloud Database Service" },
-                    { link: "/", title: "High Availibility" }
+                    { link: "/high-availability-database-service", title: "High Availibility" }
                 ]
             },
             {

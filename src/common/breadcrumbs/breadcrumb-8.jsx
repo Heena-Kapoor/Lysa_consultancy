@@ -5,10 +5,9 @@ import Image from "next/image";
 
 import shape_1 from "@/assets/img/breadcrumb/breadcrumb-shape-1.png";
 import shape_2 from "@/assets/img/breadcrumb/breadcrumb-shape-2.png";
-import CallUsButton from "@/layout/headers/CallUsButton";
 import PhoneFour from "@/svg/phone-4";
 
-const BreadcrumbEight = () => {
+const BreadcrumbEight = ({ spanText, title, desc }) => {
   const { animeRef } = useBreadcrumbTitleAnime();
   return (
     <>
@@ -29,20 +28,15 @@ const BreadcrumbEight = () => {
                     data-wow-duration=".9s"
                     data-wow-delay=".6s"
                   >
-                    <span>Solve & Upgrade Your REMOTE DBA</span>
+                    <span>{spanText}</span>
                   </div>
                   <h3 ref={animeRef} className="breadcrumb__title anime_text">
-                    Issues With Us!
+                    {title}
                   </h3>
                   <div className="row g-0 z-index-3 align-items-center justify-content-between mb-40">
                     {/* Left Column: Paragraph Text */}
                     <div className="col-xl-8 col-lg-8 col-md-12 mb-3 mb-md-0">
-                      <p className="text-white mb-0">
-                        To manage your on-premises deployments, our Remote DBA
-                        Support offers database management and 24x7 coverage.
-                        Our services include Oracle, MySQL, PostgreSQL, and
-                        MongoDB.
-                      </p>
+                      <p className="text-white mb-0">{desc}</p>
                     </div>
 
                     {/* Right Column: Contact Info */}
@@ -70,18 +64,6 @@ const BreadcrumbEight = () => {
                 </div>
               </div>
             </div>
-            {/* <div className="row g-0 z-index-3 align-items-center justify-content-between mb-40">
-              <div className="col-xl-12 col-lg-12 col-md-12">
-                <div className="breadcrumb__client-info d-flex align-items-center gap-3">
-                  <span className="text-white">Call for any question</span>
-                  <div className="breadcrumb__live-btn">
-                    <Link className="tp-btn-inner white-bg text-black" href="/">
-                      <PhoneFour height={18} width={18} /> Contact Us
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div> */}
           </div>
         </div>
       </div>

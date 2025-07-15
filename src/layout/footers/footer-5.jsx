@@ -46,7 +46,7 @@ const footer_content = {
             { name: "Upgrade & Migration", link: "#" },
             { name: "Remote Dba support", link: "/remote-dba-support" },
             { name: "Managed Cloud", link: "/" },
-            { name: "High Availability", link: "/" },
+            { name: "High Availability", link: "/high-availability-database-service" },
             { name: "Cloud Migration", link: "/" },
             { name: "Google Cloud", link: "/" },
             { name: "AWS Cloud", link: "/" },

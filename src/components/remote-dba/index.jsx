@@ -18,9 +18,15 @@ const RemoteDBAsupport = () => {
         <AnimateMouse />
         <HeaderFive />
         <main>
-          <BreadcrumbEight />
+          <BreadcrumbEight
+            spanText={"Solve & Upgrade Your REMOTE DBA"}
+            title={"Issues With Us!"}
+            desc={
+              "To manage your on-premises deployments, our Remote DBA Support offers database management and 24x7 coverage. Our services include Oracle, MySQL, PostgreSQL, and MongoDB."
+            }
+          />
           <SloutionArea style_carrer={true} />
-          <WhyChoose/>
+          <WhyChoose />
           <ResultArea style_service={true} spacing="pt-80 pb-30" />
           <WorkArea />
           <CtaArea />
