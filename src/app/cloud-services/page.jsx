@@ -5,7 +5,7 @@ export const metadata = {
   title: "Cloud Services"
 };
 
-const DatabaseServicePage = () => {
+const CloudServicePage = () => {
   return (
     <Wrapper>
       <CloudServices />
@@ -13,4 +13,4 @@ const DatabaseServicePage = () => {
   );
 };
 
-export default DatabaseServicePage;
+export default CloudServicePage;

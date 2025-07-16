@@ -47,10 +47,10 @@ const HighAvailibilty = () => {
         <HeaderFive />
         <main>
           <BreadcrumbEight
-            spanText={"Best Integrated"}
+            spanText={"High Availability"}
             title={
               <>
-                High Available <br /> Technology!
+                Best Integrated <br/> High Available <br /> Technology!
               </>
             }
             desc={

@@ -2,7 +2,7 @@ import Wrapper from "@/layouts/wrapper";
 import HomeFive from "@/components/homes/home-5";
 
 export const metadata = {
-  title: "Softec - Data analytics"
+  title: "Database Services - IT Solutions, Information Technology"
 };
 
 const HomePage = () => {

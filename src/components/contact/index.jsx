@@ -2,8 +2,6 @@
 import FooterFive from "@/layout/footers/footer-5";
 import ContactFormArea from "./contact-form-area";
 import ContactInner from "./contact-inner";
-import CtaArea from "./cta-area";
-import OfficeLocation from "./office-location";
 import ContextProvider from "@/context/ContextProvider";
 import AnimateMouse from "../homes/home-5/AnimateMouse";
 import HeaderSix from "@/layout/headers/header-6";
@@ -20,7 +18,6 @@ const Contact = () => {
             <main>
               <BreadcrumbNew title={"Contact Us"} />
               <ContactInner />
-              {/* <OfficeLocation /> */}
               <ContactFormArea />
             </main>
             <FooterFive style_contact={true} style_team={true} />

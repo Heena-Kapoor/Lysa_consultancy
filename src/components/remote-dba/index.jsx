@@ -47,10 +47,12 @@ const RemoteDBAsupport = () => {
         <HeaderFive />
         <main>
           <BreadcrumbEight
-            spanText={"Solve & Upgrade Your"}
+            spanText={"REMOTE DBA"}
             title={
               <>
-                Remote DBA <br />
+                Solve & Upgrade
+                <br />
+                Your Remote DBA <br />
                 Issues With Us!
               </>
             }
