@@ -4,8 +4,6 @@ import Link from 'next/link';
 import React, { useState } from 'react';
 import NavMenu from './nav-menu';
 import Image from 'next/image';
-
-import logo from "@/assets/img/logo/logo-black.png";
 import CallUsButton from './CallUsButton';
 
 const HeaderFive = () => {
@@ -20,7 +18,7 @@ const HeaderFive = () => {
                   <div className="row g-0 align-items-center">
                      <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-4 col-6">
                         <div className="header-bottom__logo">
-                           <Link href="/"><Image src={logo} alt="theme-pure" /></Link>
+                           <Link href="/"><Image src="/assets/img/services/lysalogo.png" alt="lysa_logo" width={70} height={70}/></Link>
                         </div>
                      </div>
                      <div className="col-xxl-8 col-xl-7 col-lg-8 d-none d-lg-block">
