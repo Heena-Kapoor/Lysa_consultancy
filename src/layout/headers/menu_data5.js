@@ -46,7 +46,7 @@ const menu_data5 = [
             },
             {
                 title: "DevOps",
-                link: "/",
+                link: "/devops-consulting-services",
                 has_dropdown: false,
             }
         ]

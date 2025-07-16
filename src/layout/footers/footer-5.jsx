@@ -28,7 +28,7 @@ const footer_content = {
          links: [
             { name: "Home", link: "/" },
             { name: "About Us", link: "/about" },
-            { name: "Devops", link: "/" },
+            { name: "Devops", link: "/devops-consulting-services" },
             { name: "Cloud Services", link: "/cloud-services" },
             { name: "Database Services", link: "/database-services" },
             { name: "FAQs", link: "/faq" },
