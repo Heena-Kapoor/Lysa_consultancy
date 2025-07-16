@@ -43,9 +43,9 @@ const footer_content = {
          title: "Solutions",
          delay: ".9s",
          links: [
-            { name: "Upgrade & Migration", link: "#" },
+            { name: "Upgrade & Migration", link: "/upgrade-and-migration" },
             { name: "Remote Dba support", link: "/remote-dba-support" },
-            { name: "Managed Cloud", link: "/" },
+            { name: "Managed Cloud", link: "/managed-cloud-database-service" },
             { name: "High Availability", link: "/high-availability-database-service" },
             { name: "Cloud Migration", link: "/" },
             { name: "Google Cloud", link: "/" },

@@ -5,20 +5,20 @@ import HeaderFive from "@/layout/headers/header-5";
 import BreadcrumbEight from "@/common/breadcrumbs/breadcrumb-8";
 import CtaArea from "../contact/cta-area";
 import FooterFive from "@/layout/footers/footer-5";
-import perks_data from "@/data/perks_data";
 import SliderArea from "@/common/slider-arae";
-import DowntimeArea from "./downtime";
-import ReducedCost from "./reducedCost";
-import Overview from "./overview";
+import Migration from "./migration";
+import migration_data from "@/data/migration-data";
+import DatabaseMigrationProcess from "./process-work";
+import ZeroDownTime from "./zero-downtime";
 
 // slider setting
 const setting = {
   loop: true,
-  slidesPerView: 4,
+  slidesPerView: 5,
   spaceBetween: 10,
   breakpoints: {
     1200: {
-      slidesPerView: 4,
+      slidesPerView: 5,
     },
     992: {
       slidesPerView: 3,
@@ -39,7 +39,7 @@ const setting = {
   },
 };
 
-const HighAvailibilty = () => {
+const Upgrade = () => {
   return (
     <>
       <ContextProvider>
@@ -47,25 +47,25 @@ const HighAvailibilty = () => {
         <HeaderFive />
         <main>
           <BreadcrumbEight
-            spanText={"Best Integrated"}
+            spanText={"Database Upgrade & Migration!"}
             title={
               <>
-                High Available <br /> Technology!
+                Seamless DB <br /> Migration
               </>
             }
             desc={
-              "Eliminate the risk of failure and ensure maximum uptime with LYSA’S high availability capabilities! LYSA has exclusive expertise in designing, implementing, and managing a high-availability architecture seamlessly."
+              "Whether you need to move from one database to a different database, from one version to another, from on-premises to the cloud, or from one data center to another, upgrade and migrate with confidence with LYSA’s tested and trusted database services."
             }
           />
+          <Migration/>
+          <DatabaseMigrationProcess/>
           <SliderArea
-            subtitle={"High Available Technology"}
-            title={"The Perks with High Availability Solutions!"}
-            data={perks_data}
+            subtitle={"Overview Of Our Services!"}
+            title={"World’s Best Database Upgrade And Migration Services"}
+            data={migration_data}
             setting={setting}
           />
-          <DowntimeArea />
-          <Overview style_service={true} />
-          <ReducedCost />
+          <ZeroDownTime/>
           <CtaArea />
         </main>
         <FooterFive style_contact={true} style_team={true} />
@@ -74,4 +74,4 @@ const HighAvailibilty = () => {
   );
 };
 
-export default HighAvailibilty;
+export default Upgrade;

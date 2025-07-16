@@ -29,8 +29,8 @@ const menu_data5 = [
                 has_dropdown: true,
                 sub_menus: [
                     { link: "/remote-dba-support", title: "Remote DBA Support" },
-                    { link: "/", title: "Upgrade & Migration" },
-                    { link: "/", title: "Managed Cloud Database Service" },
+                    { link: "/upgrade-and-migration", title: "Upgrade & Migration" },
+                    { link: "/managed-cloud-database-service", title: "Managed Cloud Database Service" },
                     { link: "/high-availability-database-service", title: "High Availibility" }
                 ]
             },
