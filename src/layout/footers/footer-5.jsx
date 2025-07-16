@@ -29,7 +29,7 @@ const footer_content = {
             { name: "Home", link: "/" },
             { name: "About Us", link: "/about" },
             { name: "Devops", link: "/" },
-            { name: "Cloud Services", link: "/" },
+            { name: "Cloud Services", link: "/cloud-services" },
             { name: "Database Services", link: "/database-services" },
             { name: "FAQs", link: "/faq" },
             { name: "Privacy Policy", link: "/privacy-policy" },

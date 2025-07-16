@@ -47,14 +47,24 @@ const RemoteDBAsupport = () => {
         <HeaderFive />
         <main>
           <BreadcrumbEight
-            spanText={"Solve & Upgrade Your REMOTE DBA"}
-            title={"Issues With Us!"}
+            spanText={"Solve & Upgrade Your"}
+            title={
+              <>
+                Remote DBA <br />
+                Issues With Us!
+              </>
+            }
             desc={
               "To manage your on-premises deployments, our Remote DBA Support offers database management and 24x7 coverage. Our services include Oracle, MySQL, PostgreSQL, and MongoDB."
             }
           />
           <SloutionArea style_carrer={true} />
-          <SliderArea subtitle={"LYSA REMOTE DBA SUPPORT?"} title={"Why Choose"} data={whychoose_data} setting={setting}/>
+          <SliderArea
+            subtitle={"LYSA REMOTE DBA SUPPORT?"}
+            title={"Why Choose"}
+            data={whychoose_data}
+            setting={setting}
+          />
           <ResultArea style_service={true} spacing="pt-80 pb-30" />
           <WorkArea />
           <CtaArea />

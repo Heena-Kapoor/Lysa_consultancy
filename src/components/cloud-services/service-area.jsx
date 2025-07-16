@@ -1,9 +1,9 @@
-import database_data from "@/data/database-data";
+import serviceArea_data from "@/data/servicearea-data";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-const DatabaseServiceArea = ({ style_integraton }) => {
+const ServiceArea = ({ style_integraton }) => {
   return (
     <>
       <div
@@ -13,8 +13,8 @@ const DatabaseServiceArea = ({ style_integraton }) => {
       >
         <div className="container">
           <div className="row gx-0 tp-feature-five-wrapper-main">
-            {database_data.map((item, i) => (
-              <div key={i} className="col-xl-3 col-lg-6 col-md-6">
+            {serviceArea_data.map((item, i) => (
+              <div key={i} className="col-xl-4 col-lg-6 col-md-6">
                 <div className="tp-feature-five-wrapper">
                   <div
                     className={`tp-feature-five-item tp-feature-five-item-${item.color} text-center z-index`}
@@ -30,7 +30,7 @@ const DatabaseServiceArea = ({ style_integraton }) => {
                       <p>{item.description}</p>
                     </div>
                     <div className="tp-feature-five-btn">
-                      <Link className="tp-btn-purple" href={item.link} target="_blank">
+                      <Link className="tp-btn-purple" href={item.link}>
                         {item.button}
                       </Link>
                     </div>
@@ -45,4 +45,4 @@ const DatabaseServiceArea = ({ style_integraton }) => {
   );
 };
 
-export default DatabaseServiceArea;
+export default ServiceArea;

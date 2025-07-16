@@ -14,7 +14,7 @@ const database_data = [
             To efficiently manage your on-premises deployments, our Remote DBA Support offers expert database management.
         </>,
         button:"Remote DBA Support",
-        link:"/"
+        link:"/remote-dba-support"
     },
     {
         id: 2,
@@ -25,7 +25,7 @@ const database_data = [
             Upgrade and migrate with confidence with LYSA’s tested and trusted database upgrade and migration services.
         </>,
         button:"Upgrade & Migration",
-        link:"/"
+        link:"/upgrade-and-migration"
     },
     {
         id: 3,
@@ -36,7 +36,7 @@ const database_data = [
             Gain A Competitive Edge With End-To-End Managed Cloud! Capitalize on the full potential of your cloud infrastructure.
         </>,
         button:"Managed Cloud",
-        link:"/"
+        link:"/managed-cloud-database-service"
     },
     {
         id: 4,
@@ -47,7 +47,7 @@ const database_data = [
             Eliminate the risk of failure and ensure maximum uptime with LYSA’s advanced, enterprise-grade high availability capabilities!
         </>,
         button:"High Availability",
-        link:"/"
+        link:"/high-availability-database-service"
     },
 ]
 export default database_data
