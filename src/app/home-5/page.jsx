@@ -2,7 +2,7 @@ import Wrapper from "@/layouts/wrapper";
 import HomeFive from "@/components/homes/home-5";
 
 export const metadata = {
-  title: "Softec - Home sass",
+  title: "LYSA - Home",
 };
 
 const HomeFivePage = () => {

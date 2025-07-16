@@ -48,7 +48,7 @@
 .tp-section-title-3{
     font-family: var(--tp-ff-urban);
     font-weight: 700;
-    font-size: 58px;
+    font-size: 50px;
     line-height: 1.1;
     margin-bottom: 0;
     @media #{$lg}{
@@ -148,7 +148,7 @@
     letter-spacing: 0.06em;
     color: #6B14FA;
     padding-bottom: 10px;
-    display: inline-block;
+    // display: inline-block;
     text-transform: uppercase;
 }
 .tp-section-subtitle-2{

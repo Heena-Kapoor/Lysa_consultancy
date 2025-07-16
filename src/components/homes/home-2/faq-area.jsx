@@ -4,6 +4,7 @@ import Image from 'next/image';
 import AnswerQuestion from '@/common/answer-question';
 
 import img from "@/assets/img/faq/faq-1.png" 
+import answer_question_data from '@/data/answer-question-data';
 
 const faq_content = {
     sub_title: "We're Here to Help",
@@ -41,7 +42,7 @@ const FaqArea = ({style_service}) => {
                      </div>
 
                      <div className="col-xl-6 col-lg-6">
-                        <AnswerQuestion /> 
+                        <AnswerQuestion data={answer_question_data}/> 
                      </div>
                   </div>
                </div>

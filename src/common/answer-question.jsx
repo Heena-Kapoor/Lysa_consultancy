@@ -1,14 +1,13 @@
 import React,{useState} from "react";
-import answer_question_data from "../data/answer-question-data";
 
-const AnswerQuestion = ({style}) => {
+const AnswerQuestion = ({style, data, custom}) => {
   const [shadow , setShadow ] = useState(2) 
   
   return (
     <>
-      <div className="tp-custom-accordion">
+      <div className={custom ? `tp-custom-accordion tp-custom-accordion1` : "tp-custom-accordion"}>
         <div className={`accordion ${style && "tp-inner-font"}`} id="accordionExample">
-          {answer_question_data.map((item) => (
+          {data.map((item) => (
             <div onClick={() => setShadow(item.id)} key={item.id} 
                  className={`accordion-items ${item.show} ${shadow === item.id && "tp-faq-active"}`}>
               <h2 className="accordion-header" id={item.accordion_id}>

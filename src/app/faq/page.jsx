@@ -2,7 +2,7 @@ import Wrapper from "@/layouts/wrapper";
 import FAQ from "@/components/faq";
 
 export const metadata = {
-  title: "FAQ Page - Softec"
+  title: "FAQ"
 };
 
 const FaqPage = () => {
