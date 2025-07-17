@@ -50,7 +50,7 @@ const DevopsLysa = () => {
                         {item.job_title}
                       </span>
                       <h4 className="inner-project-title">
-                        <Link href="/project-details">{item.title}</Link>
+                        <Link href="/devops-consulting-services">{item.title}</Link>
                       </h4>
                       <p>{item.des}</p>
                     </div>

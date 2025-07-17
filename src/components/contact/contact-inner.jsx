@@ -8,7 +8,7 @@ import icon_3 from "@/assets/img/contact/contact-icon-sm-3.png";
 
 const inner_content = {
   title: "Contact Us",
-  description: "Have questions? Contact us and we’ll be happy to help!",
+  description: "Have questions ? Contact us and we’ll be happy to help!",
   contact_data: [
     {
       id: 1,

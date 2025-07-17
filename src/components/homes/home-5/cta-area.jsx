@@ -61,7 +61,7 @@ const CtaArea = () => {
                                     </ul>
                                 </div>
                                 <div className="mt-20">
-                                    <Link className="tp-btn-yellow-lg text-black" href="/">Contact Now</Link>
+                                    <Link className="tp-btn-yellow-lg text-black" href="/contact" target='_blank'>Contact Now</Link>
                                 </div>
                             </div>
                         </div>

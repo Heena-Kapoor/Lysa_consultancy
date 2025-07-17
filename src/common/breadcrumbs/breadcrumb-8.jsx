@@ -53,7 +53,7 @@ const BreadcrumbEight = ({ spanText, title, desc }) => {
                         <div className="breadcrumb__live-btn">
                           <Link
                             className="tp-btn-inner white-bg text-black d-flex align-items-center gap-2"
-                            href="/"
+                            href="/contact"
                           >
                             <PhoneFour height={18} width={18} /> Contact Us
                           </Link>

@@ -30,7 +30,7 @@ const ServiceArea = ({ style_integraton }) => {
                       <p>{item.description}</p>
                     </div>
                     <div className="tp-feature-five-btn">
-                      <Link className="tp-btn-purple" href={item.link}>
+                      <Link className="tp-btn-purple" href={item.link} target="_blank">
                         {item.button}
                       </Link>
                     </div>

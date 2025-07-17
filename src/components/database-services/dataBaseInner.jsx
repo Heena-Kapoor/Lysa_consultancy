@@ -46,7 +46,7 @@ const DatabaseInner = () => {
                         {item.job_title}
                       </span>
                       <h4 className="inner-project-title">
-                        <Link href="/project-details">{item.title}</Link>
+                        <Link href="/database-services">{item.title}</Link>
                       </h4>
                       <p>{item.des}</p>
                     </div>

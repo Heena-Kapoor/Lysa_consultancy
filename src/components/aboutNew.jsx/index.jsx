@@ -8,9 +8,9 @@ import ServiceArea from "./service-area";
 import CompanyArea from "./company-area";
 import CtaArea from "../contact/cta-area";
 import FooterFive from "@/layout/footers/footer-5";
-import HeaderSix from "@/layout/headers/header-6";
 import journey_data from "@/data/journey_data";
 import SliderArea from "@/common/slider-arae";
+import HeaderFive from "@/layout/headers/header-5";
 
 // slider setting
 const setting = {
@@ -45,7 +45,7 @@ const About = () => {
     <>
       <ContextProvider>
         <AnimateMouse />
-        <HeaderSix />
+        <HeaderFive />
         <Breadcrumb title_top="About" title_bottom="Us" />
         <HeroBanner
           title="About"

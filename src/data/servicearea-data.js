@@ -13,7 +13,7 @@ const serviceArea_data = [
             With LYSA CONSULTANCY’s secure and scalable AWS Managed Services, you can get the most out of the AWS cloud.
         </>,
         button: "AWS Cloud Service",
-        link: "/"
+        link: "/aws-cloud-service"
     },
     {
         id: 2,
@@ -24,7 +24,7 @@ const serviceArea_data = [
             Migrate and run your business on Google Cloud seamlessly with managed cloud and managed application services.
         </>,
         button: "Google Cloud Service",
-        link: "/"
+        link: "/google-cloud-service"
     },
     {
         id: 3,
@@ -35,7 +35,7 @@ const serviceArea_data = [
             With LYSA’s extensive cloud expertise, you will avert potential pitfalls and successfully attain your cloud migration objectives.
         </>,
         button: "Cloud Migration Service",
-        link: "/"
+        link: "/cloud-migration-service"
     },
 ]
 export default serviceArea_data

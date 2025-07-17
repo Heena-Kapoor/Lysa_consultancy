@@ -13,7 +13,7 @@ const feature_data = [
         description: <>
             We hire competent professionals who have a genuine desire to serve, business acumen skills, and competency of technical expertise.
         </>,
-
+        link: "/devops-consulting-services"
     },
     {
         id: 2,
@@ -23,7 +23,7 @@ const feature_data = [
         description: <>
             To streamline process through software integration and development, we assist in collecting, managing, and maximizing the value of organizational data.
         </>,
-
+        link: "/devops-consulting-services"
     },
     {
         id: 3,
@@ -33,7 +33,7 @@ const feature_data = [
         description: <>
             Intelligent enterprise solutions, BI/analytics, project management, data management, and remote DBA support? LYSA has got you covered 24 x 7 x 365.
         </>,
-
+        link: "/database-services"
     },
     {
         id: 4,
@@ -43,7 +43,7 @@ const feature_data = [
         description: <>
             Our database care and application performance monitoring tools, created by delivery experts, quickly and affordably fix issues before they disrupt operations.
         </>,
-
+        link: "/cloud-services"
     },
 ]
 export default feature_data

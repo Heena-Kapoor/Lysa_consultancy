@@ -10,6 +10,7 @@ import Migration from "./migration";
 import migration_data from "@/data/migration-data";
 import DatabaseMigrationProcess from "./process-work";
 import ZeroDownTime from "./zero-downtime";
+import Getstarted from "./get-started";
 
 // slider setting
 const setting = {
@@ -57,15 +58,16 @@ const Upgrade = () => {
               "Whether you need to move from one database to a different database, from one version to another, from on-premises to the cloud, or from one data center to another, upgrade and migrate with confidence with LYSA’s tested and trusted database services."
             }
           />
-          <Migration/>
-          <DatabaseMigrationProcess/>
+          <Migration />
+          <DatabaseMigrationProcess />
+          <ZeroDownTime />
           <SliderArea
             subtitle={"Overview Of Our Services!"}
             title={"World’s Best Database Upgrade And Migration Services"}
             data={migration_data}
             setting={setting}
           />
-          <ZeroDownTime/>
+          <Getstarted />
           <CtaArea />
         </main>
         <FooterFive style_contact={true} style_team={true} />
