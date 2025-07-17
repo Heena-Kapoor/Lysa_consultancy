@@ -2,7 +2,7 @@ import Contact from "@/components/contact";
 import Wrapper from "@/layouts/wrapper";
 
 export const metadata = {
-  title: "Contact Us",
+  title: "Reach Out To World’s Most Reliable Database & It Services",
 };
 
 const ContactPage = () => {

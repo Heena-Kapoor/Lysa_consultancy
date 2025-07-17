@@ -2,7 +2,7 @@ import Wrapper from "@/layouts/wrapper";
 import FAQ from "@/components/faq";
 
 export const metadata = {
-  title: "FAQ"
+  title: "Common Answer and question-related to Database Service"
 };
 
 const FaqPage = () => {

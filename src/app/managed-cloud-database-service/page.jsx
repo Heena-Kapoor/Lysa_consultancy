@@ -1,9 +1,8 @@
 import ManagedCloud from "@/components/managedCloud";
-import Upgrade from "@/components/upgarde-migration";
 import Wrapper from "@/layouts/wrapper";
 
 export const metadata = {
-  title: "Managed Cloud Database Service"
+  title: "Cloud Databases: Managed Databases Service"
 };
 
 const ManagedCoudDB = () => {

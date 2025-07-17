@@ -2,7 +2,7 @@ import HighAvailibilty from "@/components/high-availability";
 import Wrapper from "@/layouts/wrapper";
 
 export const metadata = {
-  title: "High Available Technology"
+  title: "Integrated And Comprehensive High Available Technologies"
 };
 
 const HighAvailable = () => {

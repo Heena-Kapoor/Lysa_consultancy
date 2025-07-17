@@ -138,7 +138,7 @@ const FooterFive = ({ style_contact, bg_style = true, style_team }) => {
                       <ul>
                         {item.links.map((link, i) => (
                           <li key={i}>
-                            <Link href={link.link} target="_blank">{link.name}</Link>
+                            <Link href={link.link}>{link.name}</Link>
                           </li>
                         ))}
                       </ul>

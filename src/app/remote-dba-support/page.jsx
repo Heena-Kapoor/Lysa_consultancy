@@ -2,7 +2,7 @@ import RemoteDBAsupport from "@/components/remote-dba";
 import Wrapper from "@/layouts/wrapper";
 
 export const metadata = {
-  title: "REMOTE DBA SUPPORT PAGE"
+  title: "Remote DBA Support | database management services | 24x7 Experts Solution"
 };
 
 const RemoteDbaPage = () => {

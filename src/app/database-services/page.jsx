@@ -2,7 +2,7 @@ import DatabaseService from "@/components/database-services";
 import Wrapper from "@/layouts/wrapper";
 
 export const metadata = {
-  title: "Database Services"
+  title: "Best Database as a Service (DBaaS) Provider in 2025"
 };
 
 const DatabaseServicePage = () => {

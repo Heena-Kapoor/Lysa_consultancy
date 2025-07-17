@@ -2,7 +2,7 @@ import CloudServices from "@/components/cloud-services";
 import Wrapper from "@/layouts/wrapper";
 
 export const metadata = {
-  title: "Cloud Services"
+  title: "Cloud Compute Services - Secure Scalability"
 };
 
 const CloudServicePage = () => {

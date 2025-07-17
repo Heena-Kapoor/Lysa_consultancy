@@ -2,7 +2,7 @@ import About from "@/components/aboutNew.jsx";
 import Wrapper from "@/layouts/wrapper";
 
 export const metadata = {
-  title: "About Us"
+  title: "Global IT Services Provider | Designs, Implements, And Supports"
 };
 
 const AboutPage = () => {
