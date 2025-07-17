@@ -29,8 +29,8 @@ const AnswerQuestion = ({style, data, custom}) => {
                 aria-labelledby={item.accordion_id}
                 data-bs-parent="#accordionExample"
               >
-                <div className="accordion-content">
-                  <p>{item.answer}</p>
+                <div className="accordion-content pb-20">
+                  {item.answer}
                 </div>
               </div>
             </div>

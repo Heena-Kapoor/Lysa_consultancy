@@ -47,7 +47,7 @@ const footer_content = {
           link: "/high-availability-database-service",
         },
         { name: "Cloud Migration", link: "/cloud-migration-service" },
-        { name: "Google Cloud", link: "/" },
+        { name: "Google Cloud", link: "/google-cloud-service" },
         { name: "AWS Cloud", link: "/aws-cloud-service" },
         { name: "Devops Consulting", link: "/devops-consulting-services" },
       ],

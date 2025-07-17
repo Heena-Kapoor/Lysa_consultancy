@@ -40,7 +40,7 @@ const menu_data5 = [
                 has_dropdown: true,
                 sub_menus: [
                     { link: "/aws-cloud-service", title: "AWS" },
-                    { link: "/", title: "Google Cloud" },
+                    { link: "/google-cloud-service", title: "Google Cloud" },
                     { link: "/cloud-migration-service", title: "Cloud Migration" }
                 ]
             },
