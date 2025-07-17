@@ -41,7 +41,7 @@ const menu_data5 = [
                 sub_menus: [
                     { link: "/aws-cloud-service", title: "AWS" },
                     { link: "/", title: "Google Cloud" },
-                    { link: "/", title: "Cloud Migration" }
+                    { link: "/cloud-migration-service", title: "Cloud Migration" }
                 ]
             },
             {
