@@ -166,16 +166,16 @@ const FooterFive = ({ style_contact, bg_style = true, style_team }) => {
                   </div>
                   <div className="tp-footer__social-3">
                     <h4>Social media</h4>
-                    <Link href="https://www.facebook.com/people/Lysa-Consultancy/100092882791546/?rdid=zlO5mNwtD0qrlYVt&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1FYMuYZ9Yb%2F">
+                    <Link href="https://www.facebook.com/people/Lysa-Consultancy/100092882791546/?rdid=zlO5mNwtD0qrlYVt&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1FYMuYZ9Yb%2F" target="_blank">
                       <i className="fab fa-facebook-f"></i>
                     </Link>
                     {/* <Link href="#">
                       <i className="fab fa-twitter"></i>
                     </Link> */}
-                    <Link href="https://www.instagram.com/lysaconsultancy/?igsh=MTh5bHl2N3NycTVrbA%3D%3D#">
+                    <Link href="https://www.instagram.com/lysaconsultancy/?igsh=MTh5bHl2N3NycTVrbA%3D%3D#" target="_blank">
                       <i className="fab fa-instagram"></i>
                     </Link>
-                    <Link href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQFoxeyy3zCoowAAAZgdBIQgYf9lI_NwiUHQNnRvyuK4j9YZaLqsFW3yXEQsOhhSVhMDLPAZaFkTMoLPJoKMZI3onY7PrsNjVrF0taX7lqknxovPxswlzUSeVlwgg4Q-r59yySY=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Flysa-consultancy%2F">
+                    <Link href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQFoxeyy3zCoowAAAZgdBIQgYf9lI_NwiUHQNnRvyuK4j9YZaLqsFW3yXEQsOhhSVhMDLPAZaFkTMoLPJoKMZI3onY7PrsNjVrF0taX7lqknxovPxswlzUSeVlwgg4Q-r59yySY=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Flysa-consultancy%2F" target="_blank">
                       <i className="fab fa-linkedin-in"></i>
                     </Link>
                     {/* <Link href="#">
