@@ -5,6 +5,7 @@ import {gsap} from "gsap";
 import ScrollToTop from "@/hooks/scroll-to-top";
 import { wowAnimation } from "@/utils/utils"; 
 import { ScrollTrigger } from "@/plugins";
+import Whatsappintegration from "@/common/whatsapp-integrate";
 
 
 if (typeof window !== "undefined") {
@@ -29,6 +30,7 @@ const Wrapper = ({ children }) => {
   return (
     <>
       {children}
+      <Whatsappintegration/>
       <ScrollToTop />
     </>
   );

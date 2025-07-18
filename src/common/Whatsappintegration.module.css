@@ -1,0 +1,10 @@
+.wtp1 {
+    z-index: 800000;
+    position: fixed;
+    bottom: 68px;
+    left: 15px;
+   }
+ 
+ .wtp{
+   background-color: #1ad03f !important;
+ }
