@@ -25,7 +25,7 @@ const DatabaseService = () => {
           <Loader />
         ) : (
           <>
-            <AnimateMouse />
+            
             <HeaderFive />
             <main>
               <BreadcrumbNew title={"Database Services"} />

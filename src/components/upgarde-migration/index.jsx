@@ -56,7 +56,7 @@ const Upgrade = () => {
           <Loader />
         ) : (
           <>
-            <AnimateMouse />
+            
             <HeaderFive />
             <main>
               <BreadcrumbEight

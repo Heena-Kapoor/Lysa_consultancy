@@ -56,7 +56,7 @@ const HighAvailibilty = () => {
           <Loader />
         ) : (
           <>
-            <AnimateMouse />
+            
             <HeaderFive />
             <main>
               <BreadcrumbEight

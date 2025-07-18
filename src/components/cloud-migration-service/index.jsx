@@ -59,7 +59,7 @@ const CloundMigration = () => {
           <Loader />
         ) : (
           <>
-            <AnimateMouse />
+            
             <HeaderFive />
             <main>
               <BreadcrumbEight

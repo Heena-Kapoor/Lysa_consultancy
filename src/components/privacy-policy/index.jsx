@@ -22,7 +22,7 @@ const PrivacyPolicy = () => {
           <Loader />
         ) : (
           <>
-            <AnimateMouse />
+            
             <HeaderFive />
             <main>
               <BreadcrumbNew title={"Privacy Policy"} />

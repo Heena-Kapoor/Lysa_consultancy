@@ -26,7 +26,7 @@ const HomeFive = () => {
         <Loader />
       ) : (
         <>
-          <AnimateMouse />
+          
           <HeaderFive />
           <div id="smooth-wrapper">
             <div id="smooth-content">

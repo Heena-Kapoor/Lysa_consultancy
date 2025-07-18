@@ -24,7 +24,7 @@ const CloudServices = () => {
           <Loader />
         ) : (
           <>
-            <AnimateMouse />
+            
             <HeaderFive />
             <main>
               <BreadcrumbNew title={"Cloud Services"} />

@@ -56,7 +56,7 @@ const RemoteDBAsupport = () => {
           <Loader />
         ) : (
           <>
-            <AnimateMouse />
+            
             <HeaderFive />
             <main>
               <BreadcrumbEight

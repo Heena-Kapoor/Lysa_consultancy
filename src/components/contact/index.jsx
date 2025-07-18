@@ -24,7 +24,7 @@ const Contact = () => {
           <Loader />
         ) : (
           <>
-            <AnimateMouse />
+            
             <HeaderFive />
             <div id="smooth-wrapper">
               <div id="smooth-content">

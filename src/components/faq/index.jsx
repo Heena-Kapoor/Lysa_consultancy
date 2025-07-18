@@ -24,7 +24,7 @@ const FAQ = () => {
           <Loader />
         ) : (
           <>
-            <AnimateMouse />
+            
             <HeaderFive />
             <BreadcrumbNew title={"Help & FAQs"} />
             <FaqArea style_service={true} />

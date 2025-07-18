@@ -46,7 +46,7 @@ const About = () => {
         <Loader />
       ) : (
         <>
-          <AnimateMouse />
+          
           <HeaderFive />
           <Breadcrumb title_top="About" title_bottom="Us" />
           <HeroBanner
