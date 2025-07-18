@@ -10,6 +10,8 @@ import SliderArea from "@/common/slider-arae";
 import DowntimeArea from "./downtime";
 import ReducedCost from "./reducedCost";
 import Overview from "./overview";
+import { useEffect, useState } from "react";
+import Loader from "@/common/loader";
 
 // slider setting
 const setting = {
@@ -40,35 +42,48 @@ const setting = {
 };
 
 const HighAvailibilty = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setLoading(false), 1000);
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <>
       <ContextProvider>
-        <AnimateMouse />
-        <HeaderFive />
-        <main>
-          <BreadcrumbEight
-            spanText={"High Availability"}
-            title={
-              <>
-                Best Integrated <br/> High Available <br /> Technology!
-              </>
-            }
-            desc={
-              "Eliminate the risk of failure and ensure maximum uptime with LYSA’S high availability capabilities! LYSA has exclusive expertise in designing, implementing, and managing a high-availability architecture seamlessly."
-            }
-          />
-          <SliderArea
-            subtitle={"High Available Technology"}
-            title={"The Perks with High Availability Solutions!"}
-            data={perks_data}
-            setting={setting}
-          />
-          <DowntimeArea />
-          <Overview style_service={true} />
-          <ReducedCost />
-          <CtaArea />
-        </main>
-        <FooterFive style_contact={true} style_team={true} />
+        {loading ? (
+          <Loader />
+        ) : (
+          <>
+            <AnimateMouse />
+            <HeaderFive />
+            <main>
+              <BreadcrumbEight
+                spanText={"High Availability"}
+                title={
+                  <>
+                    Best Integrated <br /> High Available <br /> Technology!
+                  </>
+                }
+                desc={
+                  "Eliminate the risk of failure and ensure maximum uptime with LYSA’S high availability capabilities! LYSA has exclusive expertise in designing, implementing, and managing a high-availability architecture seamlessly."
+                }
+              />
+              <SliderArea
+                subtitle={"High Available Technology"}
+                title={"The Perks with High Availability Solutions!"}
+                data={perks_data}
+                setting={setting}
+              />
+              <DowntimeArea />
+              <Overview style_service={true} />
+              <ReducedCost />
+              <CtaArea />
+            </main>
+            <FooterFive style_contact={true} style_team={true} />
+          </>
+        )}
       </ContextProvider>
     </>
   );

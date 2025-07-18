@@ -3,7 +3,7 @@ import Link from "next/link";
 import React, { useContext, useEffect, useRef } from "react";
 
 const AnimateMouse = () => {
-  const {isEnter} = useContext(AppContext);
+  const { isEnter } = useContext(AppContext);
   const eRef = useRef(null);
   const tRef = useRef(null);
   let n,
@@ -12,12 +12,14 @@ const AnimateMouse = () => {
 
   useEffect(() => {
     const handleMouseMove = (s) => {
-      if (!o) {
-        tRef.current.style.transform = `translate(${s.clientX}px, ${s.clientY}px)`;
+      if (eRef.current && tRef.current) {
+        if (!o) {
+          tRef.current.style.transform = `translate(${s.clientX}px, ${s.clientY}px)`;
+        }
+        eRef.current.style.transform = `translate(${s.clientX}px, ${s.clientY}px)`;
+        n = s.clientY;
+        i = s.clientX;
       }
-      eRef.current.style.transform = `translate(${s.clientX}px, ${s.clientY}px)`;
-      n = s.clientY;
-      i = s.clientX;
     };
     window.addEventListener("mousemove", handleMouseMove);
 
@@ -38,7 +40,7 @@ const AnimateMouse = () => {
         className={`mouseCursor cursor-inner ${isEnter ? "cursor-big" : ""}`}
         style={{ visibility: "visible" }}
       >
-        <Link  href="#"><i className="fas fa-play"></i></Link>
+        <Link href="#"><i className="fas fa-play"></i></Link>
       </div>
     </React.Fragment>
   );

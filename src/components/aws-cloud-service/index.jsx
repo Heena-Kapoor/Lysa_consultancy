@@ -11,6 +11,8 @@ import Experience from "./experience";
 import aws_data from "@/data/aws-data";
 import Getstarted from "./get-started";
 import AwsLysa from "./lysa-aws";
+import { useEffect, useState } from "react";
+import Loader from "@/common/loader";
 
 // slider setting
 const setting = {
@@ -45,37 +47,50 @@ const setting = {
 };
 
 const AwsCloud = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setLoading(false), 1000);
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <>
       <ContextProvider>
-        <AnimateMouse />
-        <HeaderFive />
-        <main>
-          <BreadcrumbEight
-            spanText={"AWS Cloud Services"}
-            title={
-              <>
-                LYSA AWS Cloud <br /> Services: <br /> Foundation of <br />{" "}
-                Digital Success
-              </>
-            }
-            desc={
-              "With LYSA CONSULTANCY's secure and scalable AWS cloud Services, you can HIRE US For the Foundation Of Your Digital Success."
-            }
-          />
-          <AWSservice />
-          <Experience />
-          <Getstarted/>
-          <SliderArea
-            subtitle={"Why Partner with LYSA for AWS Cloud Services?"}
-            title={"Let Us Take Care of Your Cloud Management."}
-            data={aws_data}
-            setting={setting}
-          />
-          <AwsLysa/>
-          <CtaArea />
-        </main>
-        <FooterFive style_contact={true} style_team={true} />
+        {loading ? (
+          <Loader />
+        ) : (
+          <>
+            <AnimateMouse />
+            <HeaderFive />
+            <main>
+              <BreadcrumbEight
+                spanText={"AWS Cloud Services"}
+                title={
+                  <>
+                    LYSA AWS Cloud <br /> Services: <br /> Foundation of <br />{" "}
+                    Digital Success
+                  </>
+                }
+                desc={
+                  "With LYSA CONSULTANCY's secure and scalable AWS cloud Services, you can HIRE US For the Foundation Of Your Digital Success."
+                }
+              />
+              <AWSservice />
+              <Experience />
+              <Getstarted />
+              <SliderArea
+                subtitle={"Why Partner with LYSA for AWS Cloud Services?"}
+                title={"Let Us Take Care of Your Cloud Management."}
+                data={aws_data}
+                setting={setting}
+              />
+              <AwsLysa />
+              <CtaArea />
+            </main>
+            <FooterFive style_contact={true} style_team={true} />
+          </>
+        )}
       </ContextProvider>
     </>
   );

@@ -13,6 +13,8 @@ import devops_data from "@/data/devops-data";
 import WhychooseLysa from "./whychooseLysa";
 import Getstarted from "./get-started";
 import DevopsLysa from "./devopsLysa";
+import { useEffect, useState } from "react";
+import Loader from "@/common/loader";
 
 // slider setting
 const setting = {
@@ -47,39 +49,52 @@ const setting = {
 };
 
 const DevOps = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setLoading(false), 1000);
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <>
       <ContextProvider>
-        <AnimateMouse />
-        <HeaderFive />
-        <main>
-          <BreadcrumbEight
-            spanText={"DevOps"}
-            title={
-              <>
-                Speed Up <br /> Business With <br /> DevOps Consulting <br />{" "}
-                Services
-              </>
-            }
-            desc={
-              "Our DevOps Consulting Services, increase the pace of your innovation and accelerate speed to market for a competitive advantage."
-            }
-          />
-          <DiffrenceArea />
-          <PerksGain />
-          <SliderArea
-            subtitle={"Assisting You Through DevOps."}
-            title={"Attain DevOps Success with Our Consulting Services!"}
-            data={devops_data}
-            setting={setting}
-          />
-          <GetResult />
-          <WhychooseLysa/>
-          <Getstarted/>
-          <DevopsLysa/>
-          <CtaArea />
-        </main>
-        <FooterFive style_contact={true} style_team={true} />
+        {loading ? (
+          <Loader />
+        ) : (
+          <>
+            <AnimateMouse />
+            <HeaderFive />
+            <main>
+              <BreadcrumbEight
+                spanText={"DevOps"}
+                title={
+                  <>
+                    Speed Up <br /> Business With <br /> DevOps Consulting{" "}
+                    <br /> Services
+                  </>
+                }
+                desc={
+                  "Our DevOps Consulting Services, increase the pace of your innovation and accelerate speed to market for a competitive advantage."
+                }
+              />
+              <DiffrenceArea />
+              <PerksGain />
+              <SliderArea
+                subtitle={"Assisting You Through DevOps."}
+                title={"Attain DevOps Success with Our Consulting Services!"}
+                data={devops_data}
+                setting={setting}
+              />
+              <GetResult />
+              <WhychooseLysa />
+              <Getstarted />
+              <DevopsLysa />
+              <CtaArea />
+            </main>
+            <FooterFive style_contact={true} style_team={true} />
+          </>
+        )}
       </ContextProvider>
     </>
   );

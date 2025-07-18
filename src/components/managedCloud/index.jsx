@@ -9,32 +9,47 @@ import CrucialData from "./crucial-data";
 import CloudDB from "./cloudDB";
 import Getstarted from "./get-started";
 import Whychoose from "./why-choose";
+import { useEffect, useState } from "react";
+import Loader from "@/common/loader";
 
 const ManagedCloud = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setLoading(false), 1000);
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <>
       <ContextProvider>
-        <AnimateMouse />
-        <HeaderFive />
-        <main>
-          <BreadcrumbEight
-            spanText={"Cloud Database Management"}
-            title={
-              <>
-                Managed Cloud <br /> Database Service
-              </>
-            }
-            desc={
-              "Gain a competitive edge with end-to-end managed cloud database services! Capitalize on the full potential of your cloud infrastructure operations with LYSA. Our managed cloud database services ensure that every component of your cloud environment pulls its weight."
-            }
-          />
-          <Whychoose style_carrer={true} />
-          <CrucialData/>
-          <CloudDB/>
-          <Getstarted/>
-          <CtaArea />
-        </main>
-        <FooterFive style_contact={true} style_team={true} />
+        {loading ? (
+          <Loader />
+        ) : (
+          <>
+            <AnimateMouse />
+            <HeaderFive />
+            <main>
+              <BreadcrumbEight
+                spanText={"Cloud Database Management"}
+                title={
+                  <>
+                    Managed Cloud <br /> Database Service
+                  </>
+                }
+                desc={
+                  "Gain a competitive edge with end-to-end managed cloud database services! Capitalize on the full potential of your cloud infrastructure operations with LYSA. Our managed cloud database services ensure that every component of your cloud environment pulls its weight."
+                }
+              />
+              <Whychoose style_carrer={true} />
+              <CrucialData />
+              <CloudDB />
+              <Getstarted />
+              <CtaArea />
+            </main>
+            <FooterFive style_contact={true} style_team={true} />
+          </>
+        )}
       </ContextProvider>
     </>
   );

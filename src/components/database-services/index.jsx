@@ -7,20 +7,35 @@ import FooterFive from "@/layout/footers/footer-5";
 import DatabaseServiceArea from "./databaseServiceArea";
 import CtaArea from "../contact/cta-area";
 import DatabaseInner from "./dataBaseInner";
+import { useEffect, useState } from "react";
+import Loader from "@/common/loader";
 
 const DatabaseService = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setLoading(false), 1000);
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <>
       <ContextProvider>
-        <AnimateMouse />
-        <HeaderFive />
-        <main>
-          <BreadcrumbNew title={"Database Services"} />
-          <DatabaseServiceArea style_integraton={true} />
-          <DatabaseInner />
-          <CtaArea />
-        </main>
-        <FooterFive style_contact={true} style_team={true} />
+        {loading ? (
+          <Loader />
+        ) : (
+          <>
+            <AnimateMouse />
+            <HeaderFive />
+            <main>
+              <BreadcrumbNew title={"Database Services"} />
+              <DatabaseServiceArea style_integraton={true} />
+              <DatabaseInner />
+              <CtaArea />
+            </main>
+            <FooterFive style_contact={true} style_team={true} />
+          </>
+        )}
       </ContextProvider>
     </>
   );

@@ -30,7 +30,10 @@ const DatabaseInner = () => {
                   data-wow-duration=".9s"
                   data-wow-delay={delay + "s"}
                 >
-                  <div className="inner-project-item mb-30">
+                  <div
+                    className="inner-project-item mb-30"
+                    style={{ height: "960px !important" }}
+                  >
                     <div className="inner-project-img fix p-relative">
                       <Image
                         className="w-100"

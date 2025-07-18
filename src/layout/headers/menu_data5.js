@@ -64,7 +64,7 @@ const menu_data5 = [
         mega_menu: false,
         has_dropdown: false,
         title: "Blog",
-        link: "/blog",
+        link: "/",
         active: "",
     },
     {

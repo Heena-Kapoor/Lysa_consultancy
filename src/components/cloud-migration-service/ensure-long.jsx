@@ -49,7 +49,7 @@ const EnsureLong = ({ style_service }) => {
                 <h4 className="tp-section-title-2 pb-15 ">
                   {style_service ? dub_title : title}
                 </h4>
-                <p className="tp-title-anim">{description}</p>
+               {description}
               </div>
             </div>
             <div

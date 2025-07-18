@@ -10,6 +10,8 @@ import SloutionArea from "./solution-area";
 import WorkArea from "./work-area";
 import SliderArea from "@/common/slider-arae";
 import whychoose_data from "@/data/why-choose-data";
+import { useEffect, useState } from "react";
+import Loader from "@/common/loader";
 
 // slider setting
 const setting = {
@@ -40,38 +42,51 @@ const setting = {
 };
 
 const RemoteDBAsupport = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setLoading(false), 1000);
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <>
       <ContextProvider>
-        <AnimateMouse />
-        <HeaderFive />
-        <main>
-          <BreadcrumbEight
-            spanText={"REMOTE DBA"}
-            title={
-              <>
-                Solve & Upgrade
-                <br />
-                Your Remote DBA <br />
-                Issues With Us!
-              </>
-            }
-            desc={
-              "To manage your on-premises deployments, our Remote DBA Support offers database management and 24x7 coverage. Our services include Oracle, MySQL, PostgreSQL, and MongoDB."
-            }
-          />
-          <SloutionArea style_carrer={true} />
-          <SliderArea
-            subtitle={"LYSA REMOTE DBA SUPPORT?"}
-            title={"Why Choose"}
-            data={whychoose_data}
-            setting={setting}
-          />
-          <ResultArea style_service={true} spacing="pt-80 pb-30" />
-          <WorkArea />
-          <CtaArea />
-        </main>
-        <FooterFive style_contact={true} style_team={true} />
+        {loading ? (
+          <Loader />
+        ) : (
+          <>
+            <AnimateMouse />
+            <HeaderFive />
+            <main>
+              <BreadcrumbEight
+                spanText={"REMOTE DBA"}
+                title={
+                  <>
+                    Solve & Upgrade
+                    <br />
+                    Your Remote DBA <br />
+                    Issues With Us!
+                  </>
+                }
+                desc={
+                  "To manage your on-premises deployments, our Remote DBA Support offers database management and 24x7 coverage. Our services include Oracle, MySQL, PostgreSQL, and MongoDB."
+                }
+              />
+              <SloutionArea style_carrer={true} />
+              <SliderArea
+                subtitle={"LYSA REMOTE DBA SUPPORT?"}
+                title={"Why Choose"}
+                data={whychoose_data}
+                setting={setting}
+              />
+              <ResultArea style_service={true} spacing="pt-80 pb-30" />
+              <WorkArea />
+              <CtaArea />
+            </main>
+            <FooterFive style_contact={true} style_team={true} />
+          </>
+        )}
       </ContextProvider>
     </>
   );
