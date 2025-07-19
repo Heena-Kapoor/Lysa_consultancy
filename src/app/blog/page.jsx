@@ -2,7 +2,7 @@ import Wrapper from "@/layouts/wrapper";
 import Blog from "@/components/blog";
 
 export const metadata = {
-  title: "Blogs - Softec",
+  title: "Blogs - LYSA Consultancy",
 };
 
 const BlogPage = () => {

@@ -1,72 +1,80 @@
-import React from 'react';
-import Image from 'next/image';
-import ReplyIcon from '@/svg/reply-icon';
+"use client";
+import React, { useEffect, useState } from "react";
+import Image from "next/image";
+import ReplyIcon from "@/svg/reply-icon";
+import Link from "next/link";
+import axios from "axios";
+import Loader from "@/common/loader";
 
+const Comments = ({ blogId }) => {
+  const [comments, setComments] = useState([]);
+  const [loading, setLoading] = useState(true);
 
-import avata_1 from "@/assets/img/blog/blog-avata-2.png";
-import avata_2 from "@/assets/img/blog/blog-avata-1.png";
-import avata_3 from "@/assets/img/blog/blog-list-avata-1.jpg";
-import Link from 'next/link';
+  useEffect(() => {
+    const fetchComments = async () => {
+      try {
+        const res = await axios.get(
+          `http://blog.lysaconsultancy.com/api/blogs/${blogId}/comment`
+        );
 
-const comments_data = [
-    {
-        id: 1, 
-        img: avata_1,
-        name: "Justin Case",
-        date: "April 8, 2022 at 7:38 am",
-        comment: <>Patient Comments are a collection of comments submitted by viewers in <br /> response to a question posed by a MedicineNet doctor.</>,
-        cls_reply: ""
-    },
-    {
-        id: 2, 
-        img: avata_2,
-        name: "Farhan Firoz",
-        date: "July 14, 2022",
-        comment: <>Include anecdotal examples of your experience, or things you took notice of that you feel others would find useful.</>,
-        cls_reply: "children"
-    },
-    {
-        id: 3, 
-        img: avata_3,
-        name: "Jamil Rayhan",
-        date: "April 8, 2022 at 7:38 am",
-        comment: <>Patient Comments are a collection of comments submitted by viewers in <br /> response to a question posed by a MedicineNet doctor.</>,
-        cls_reply: ""
-    },
+        if (res.data.success) {
+          setComments(res.data.data);
+        } else {
+          console.warn("Search failed or returned no results.");
+          setComments([]);
+        }
+      } catch (err) {
+        console.error("Failed to fetch comments:", err);
+      } finally {
+        setLoading(false);
+      }
+    };
 
-]
+    if (blogId) fetchComments();
+  }, [blogId]);
 
-const Comments = () => {
+  if (loading) return <Loader />;
+  if (!comments.length)
     return (
-      <>
-        <ul>
-          {comments_data.map((item, i) => (
-            <li key={i} className={item.cls_reply}>
-              <div className="postbox__comment-box  d-flex">
-                <div className="postbox__comment-info">
-                  <div className="postbox__comment-avater mr-20">
-                    <Image src={item.img} alt="theme-pure" />
-                  </div>
-                </div>
-                <div className="postbox__comment-text">
-                  <div className="postbox__comment-name d-flex">
-                    <h5>{item.name}</h5>
-                    <span className="post-meta">{item.date}</span>
-                  </div>
-                  <p>{item.comment}</p>
-                  <div className="postbox__comment-reply">
-                    <Link href="#">
-                      <ReplyIcon />
-                      Reply
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </li>
-          ))}
-        </ul>
-      </>
+      <p style={{ fontStyle: "italic", fontWeight: "bold" }}>
+        No comments found.
+      </p>
     );
+
+  return (
+    <ul>
+      {comments.map((item) => (
+        <li key={item.id}>
+          <div className="postbox__comment-box d-flex">
+            <div className="postbox__comment-info">
+              <div className="postbox__comment-avater mr-20">
+                <Image
+                  src={item?.user_image || "/default-avatar.png"} // fallback image
+                  alt={item?.user_name || "User"}
+                  width={60}
+                  height={60}
+                />
+              </div>
+            </div>
+            <div className="postbox__comment-text">
+              <div className="postbox__comment-name d-flex">
+                <h5>{item?.user_name || "Anonymous"}</h5>
+                <span className="post-meta">
+                  {new Date(item?.created_at).toLocaleDateString()}
+                </span>
+              </div>
+              <p>{item?.comment}</p>
+              <div className="postbox__comment-reply">
+                <Link href="#">
+                  <ReplyIcon /> Reply
+                </Link>
+              </div>
+            </div>
+          </div>
+        </li>
+      ))}
+    </ul>
+  );
 };
 
 export default Comments;

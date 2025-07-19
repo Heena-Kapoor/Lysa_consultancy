@@ -1,37 +1,48 @@
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useState } from "react";
+import axios from "axios";
 
-const categories_data = [
-  { id: 1, titile: "Technology", items: "01" },
-  { id: 2, titile: "Softec", items: "02" },
-  { id: 3, titile: "Development", items: "03" },
-  { id: 4, titile: "Tips & Tricks", items: "04" },
-  { id: 5, titile: "News", items: "05" },
-];
 const Categories = () => {
+  const [categories, setCategories] = useState([]);
+
+  useEffect(() => {
+    const fetchCategories = async () => {
+      try {
+        const response = await axios.get(
+          "http://blog.lysaconsultancy.com/api/categories-with-blogs",
+          {
+            params: { limit: 1000000 },
+          }
+        );
+        console.log("response", response);
+
+        setCategories(response?.data?.categories);
+      } catch (error) {
+        console.error("Error fetching categories:", error);
+      }
+    };
+
+    fetchCategories();
+  }, []);
+
   return (
-    <>
-      <div className="sidebar__widget mb-40">
-        <div className="sidebar__widge-title-box">
-          <h3 className="sidebar__widget-title">Categories</h3>
-        </div>
-        <div className="sidebar__widget-content">
-          <ul>
-            {categories_data.map((item, i) => (
-              <li key={i}>
-                <Link href="/blog">
-                  <span>
-                    <i className="fal fa-angle-right"></i>
-                    {item.titile}
-                  </span>
-                  <span>{item.items}</span>
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
+    <div className="sidebar__widget mb-40">
+      <div className="sidebar__widge-title-box">
+        <h3 className="sidebar__widget-title">Categories</h3>
       </div>
-    </>
+      <div className="sidebar__widget-content">
+        <ul>
+          {categories.map((category) => (
+            <li key={category.id}>
+              <Link href={`/blog?category=${category.slug}`}>
+                <span>{category.name}</span>
+                <span>{category.blogs_count}</span>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
   );
 };
 
