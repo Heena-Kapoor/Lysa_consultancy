@@ -1,6 +1,8 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
+import ReplyIcon from "@/svg/reply-icon";
+import Link from "next/link";
 import axios from "axios";
 import Loader from "@/common/loader";
 
@@ -12,12 +14,7 @@ const Comments = ({ blogId }) => {
     const fetchComments = async () => {
       try {
         const res = await axios.get(
-          `http://blog.lysaconsultancy.com/api/blogs/${blogId}/comments`,
-          {
-            params: {
-              limit: 5,
-            },
-          }
+          `http://blog.lysaconsultancy.com/api/blogs/${blogId}/comment`
         );
 
         if (res.data.success) {
@@ -44,8 +41,6 @@ const Comments = ({ blogId }) => {
       </p>
     );
 
-  console.log("comments", comments);
-
   return (
     <ul>
       {comments.map((item) => (
@@ -54,8 +49,8 @@ const Comments = ({ blogId }) => {
             <div className="postbox__comment-info">
               <div className="postbox__comment-avater mr-20">
                 <Image
-                  src={item?.user_image || "/assets/img/blog/blog-avata-1.png"} // fallback image
-                  alt={item?.name || "User"}
+                  src={item?.user_image || "/default-avatar.png"} // fallback image
+                  alt={item?.user_name || "User"}
                   width={60}
                   height={60}
                 />
@@ -63,12 +58,17 @@ const Comments = ({ blogId }) => {
             </div>
             <div className="postbox__comment-text">
               <div className="postbox__comment-name d-flex">
-                <h5>{item?.name || "Anonymous"}</h5>
+                <h5>{item?.user_name || "Anonymous"}</h5>
                 <span className="post-meta">
                   {new Date(item?.created_at).toLocaleDateString()}
                 </span>
               </div>
-              <p>{item?.message}</p>
+              <p>{item?.comment}</p>
+              <div className="postbox__comment-reply">
+                <Link href="#">
+                  <ReplyIcon /> Reply
+                </Link>
+              </div>
             </div>
           </div>
         </li>

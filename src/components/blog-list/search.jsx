@@ -9,12 +9,12 @@ const Search = ({ onResults }) => {
   const handleSearch = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post(
+      const res = await axios.get(
         "http://blog.lysaconsultancy.com/api/blogs/search",
-        { query }
+        {
+          params: { query },
+        }
       );
-
-      console.log("res", res);
 
       if (res.data.success) {
         onResults(res.data.data); // Pass results up
