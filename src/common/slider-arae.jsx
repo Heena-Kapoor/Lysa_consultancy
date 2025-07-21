@@ -65,8 +65,14 @@ const SliderArea = ({ subtitle, title, data, setting, showId }) => {
                   ))}
                 </Swiper>
 
-                <div className="swiper-button-prev"></div>
-                <div className="swiper-button-next"></div>
+                <div
+                  className="swiper-button-prev"
+                  style={{ color: "#6B14FA", top: "80px" }}
+                ></div>
+                <div
+                  className="swiper-button-next"
+                  style={{ color: "#6B14FA", top: "80px" }}
+                ></div>
 
                 <div className="tp-scrollbar"></div>
               </div>

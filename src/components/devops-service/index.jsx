@@ -42,6 +42,10 @@ const setting = {
     delay: 5000, // 5 seconds
     disableOnInteraction: false, // continues after user interaction
   },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
   scrollbar: {
     el: ".tp-scrollbar",
     clickable: true,
@@ -63,7 +67,6 @@ const DevOps = () => {
           <Loader />
         ) : (
           <>
-            
             <HeaderFive />
             <main>
               <BreadcrumbEight

@@ -35,6 +35,10 @@ const setting = {
       slidesPerView: 1,
     },
   },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
   scrollbar: {
     el: ".tp-scrollbar",
     clickable: true,
@@ -56,7 +60,6 @@ const HighAvailibilty = () => {
           <Loader />
         ) : (
           <>
-            
             <HeaderFive />
             <main>
               <BreadcrumbEight

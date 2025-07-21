@@ -26,6 +26,10 @@ const setting = {
     576: { slidesPerView: 2 },
     0: { slidesPerView: 1 },
   },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
   scrollbar: {
     el: ".tp-scrollbar",
     clickable: true,
@@ -46,7 +50,6 @@ const About = () => {
         <Loader />
       ) : (
         <>
-          
           <HeaderFive />
           <Breadcrumb title_top="About" title_bottom="Us" />
           <HeroBanner
