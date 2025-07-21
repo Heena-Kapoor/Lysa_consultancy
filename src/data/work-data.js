@@ -1,8 +1,8 @@
 
-import project_img_1 from "../../public/assets/img/project/project-img-2.jpg";
-import project_img_2 from "../../public/assets/img/project/project-img-1.jpg";
-import project_img_3 from "../../public/assets/img/project/project-img-3.jpg";
-import project_img_4 from "../../public/assets/img/project/project-img-4.jpg";
+import project_img_1 from "../../public/assets/img/project/project-inner-1.jpg";
+import project_img_2 from "../../public/assets/img/project/project-inner-1.jpg";
+import project_img_3 from "../../public/assets/img/project/project-inner-1.jpg";
+import project_img_4 from "../../public/assets/img/project/project-inner-1.jpg";
 
 const work_data = [
     {

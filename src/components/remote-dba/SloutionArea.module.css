@@ -1,0 +1,49 @@
+.solutionArea {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #fff;
+}
+
+.card {
+  padding: 30px 25px;
+  border-radius: 16px;
+  border: 1px solid #eee;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  height: 100%;
+  background-color: #fff;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+.icon {
+  margin-bottom: 25px;
+}
+
+.badge {
+  display: inline-block;
+  background-color: #f5f7fa;
+  color: #555;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 999px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #0e1b3d;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 15px;
+  color: #4f5a70;
+  line-height: 1.6;
+}

@@ -37,7 +37,11 @@ const ServiceArea = () => {
                 <span className="tp-section-subtitle-5">{sub_title}</span>
                 <h3 className="tp-section-title-5 pb-15">{title}</h3>
                 <p className="pb-20">{description}</p>
-                <Link className="tp-btn-yellow-lg text-black" href="/contact" target="_blank">
+                <Link
+                  className="tp-btn-yellow-lg text-black"
+                  href="/contact"
+                  target="_blank"
+                >
                   {btn_text}
                 </Link>
               </div>
@@ -54,14 +58,20 @@ const ServiceArea = () => {
                         <div className="tp-service-five-icon">
                           <Image src={item.img} alt="theme-pure" />
                         </div>
-                        <div className="tp-service-five-content">
+                        <div>
                           <h3 className="tp-service-five-title-sm">
-                            <Link href={item.link} target="_blank"> {item.title}</Link>
+                            <Link href={item.link} target="_blank">
+                              {" "}
+                              {item.title}
+                            </Link>
                           </h3>
                           <p>{item.description} </p>
                         </div>
                       </div>
-                      <div className="tp-service-five-btn text-end">
+                      <div
+                        className="tp-service-five-btn text-end"
+                        style={{ top: "18px" }}
+                      >
                         <Link href={item.link} target="_blank">
                           <i className="far fa-arrow-right"></i>
                         </Link>

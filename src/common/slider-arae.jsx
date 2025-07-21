@@ -24,7 +24,9 @@ const SliderArea = ({ subtitle, title, data, setting, showId }) => {
                 <h5 className="inner-section-subtitle pt-30 pb-10 text-center">
                   {subtitle}
                 </h5>
-                <h3 className="ab-brand-title pb-0 mb-0 text-center">{title}</h3>
+                <h3 className="ab-brand-title pb-0 mb-0 text-center">
+                  {title}
+                </h3>
               </div>
             </div>
           </div>
@@ -62,6 +64,10 @@ const SliderArea = ({ subtitle, title, data, setting, showId }) => {
                     </SwiperSlide>
                   ))}
                 </Swiper>
+
+                <div className="swiper-button-prev"></div>
+                <div className="swiper-button-next"></div>
+
                 <div className="tp-scrollbar"></div>
               </div>
             </div>

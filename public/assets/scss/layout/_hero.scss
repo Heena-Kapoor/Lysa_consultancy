@@ -1049,20 +1049,20 @@
 .tp-hero-five-section-wrap {
 	margin-left: -60px;
     @media #{$xxl}{
-        margin-left: 0;
+        margin-left: -60px;
     }
     @media #{$xl}{
         margin-left: 45px;
     }
     @media #{$lg}{
-        margin-left: 0px;
+        margin-left: -60px;
         padding-top: 30px;
     }
     @media #{$md}{
-        margin-left: 0px;
+        margin-left: -60px;
     }
     @media #{$xs}{
-        margin-left: 0px;
+        margin-left: -60px;
     }
 }
 .tp-hero-five-2{
