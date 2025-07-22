@@ -35,7 +35,7 @@ const GcpLysa = () => {
                 >
                   <div
                     className="inner-project-item mb-30"
-                    style={{ height: "900px !important" }}
+                    style={{ height: "960px" }}
                   >
                     <div className="inner-project-img fix p-relative">
                       <Image
@@ -43,9 +43,9 @@ const GcpLysa = () => {
                         src={item.thumb_img}
                         alt="theme-pure"
                       />
-                      <div className="inner-project-brand">
+                      {/* <div className="inner-project-brand">
                         <Image src={item.brand_logo} alt="theme-pure" />
-                      </div>
+                      </div> */}
                     </div>
                     <div className="inner-project-content">
                       <span className="inner-project-category-title">

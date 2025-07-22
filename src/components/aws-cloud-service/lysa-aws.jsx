@@ -6,7 +6,7 @@ import React from "react";
 const AwsLysa = () => {
   return (
     <>
-      <div className="portfolio-area pb-50">
+      <div className="portfolio-area pt-50 pb-50">
         <div className="container">
           <div className="row grid">
             <h3 className="tp-section-title-6 text-black pb-20 text-center">
@@ -31,7 +31,7 @@ const AwsLysa = () => {
                 >
                   <div
                     className="inner-project-item mb-30"
-                    style={{ height: "900px !important" }}
+                    style={{ height: "910px" }}
                   >
                     <div className="inner-project-img fix p-relative">
                       <Image
@@ -39,9 +39,9 @@ const AwsLysa = () => {
                         src={item.thumb_img}
                         alt="theme-pure"
                       />
-                      <div className="inner-project-brand">
+                      {/* <div className="inner-project-brand">
                         <Image src={item.brand_logo} alt="theme-pure" />
-                      </div>
+                      </div> */}
                     </div>
                     <div className="inner-project-content">
                       <span className="inner-project-category-title">

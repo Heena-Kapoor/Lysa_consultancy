@@ -6,23 +6,23 @@ const LysaProcess = () => {
       title: "Doing An Assessment",
       description:
         "Before you start, you will need to evaluate your current landscape, including third-party interfaces, integrations, and legacy products.",
-      icon: "/assets/img/feature/fea-circle-5-1.png",
+      icon: "/assets/img/security/security-1.png",
     },
     {
       title: "Comprehending Your Migration Approaches",
       description:
         "Modification? Lift and shift? Rip and replace? Each workload will need a different migration strategy.",
-      icon: "/assets/img/feature/fea-circle-5-1.png",
+      icon: "/assets/img/security/security-1.png",
     },
     {
       title: "Comprehending Your Workloads",
       description: "Determine the kinds of workloads that need to be migrated.",
-      icon: "/assets/img/feature/fea-circle-5-1.png",
+      icon: "/assets/img/security/security-1.png",
     },
     {
       title: "Planning Your Journey",
       description: "Create a roadmap, including timelines, costs, and risks.",
-      icon: "/assets/img/feature/fea-circle-5-1.png",
+      icon: "/assets/img/security/security-1.png",
     },
   ];
 

@@ -17,11 +17,11 @@ import Loader from "@/common/loader";
 // slider setting
 const setting = {
   loop: true,
-  slidesPerView: 5,
+  slidesPerView: 4,
   spaceBetween: 30,
   breakpoints: {
     1200: {
-      slidesPerView: 5,
+      slidesPerView: 4,
     },
     992: {
       slidesPerView: 3,

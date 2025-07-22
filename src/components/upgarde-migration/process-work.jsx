@@ -5,25 +5,25 @@ const steps = [
     title: "It Begins With A Plan",
     description:
       "We will examine and comprehend your current architecture, gaps, business needs, and future growth requirements.",
-    icon: "/assets/img/feature/fea-circle-5-1.png",
+    icon: "/assets/img/security/security-1.png",
   },
   {
     title: "The Implementation Makes It Absolute",
     description:
       "Then it is time to move your current workloads efficiently while minimizing downtime and risk.",
-    icon: "/assets/img/feature/fea-circle-5-1.png",
+    icon: "/assets/img/security/security-1.png",
   },
   {
     title: "Custom Design Makes It Yours",
     description:
       "Our next step is to design your target architecture and create your custom migration roadmap.",
-    icon: "/assets/img/feature/fea-circle-5-1.png",
+    icon: "/assets/img/security/security-1.png",
   },
   {
     title: "Post-Implementation Support",
     description:
       "You will be worry-free with our 30-day guarantee of monitoring and support for your new environment.",
-    icon: "/assets/img/feature/fea-circle-5-1.png",
+    icon: "/assets/img/security/security-1.png",
   },
 ];
 

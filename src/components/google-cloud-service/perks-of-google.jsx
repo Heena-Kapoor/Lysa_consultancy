@@ -5,25 +5,25 @@ const steps = [
     title: "Latest Functionalities",
     description:
       "The changes made on the platform are gradual and small, giving users time to adjust.",
-    icon: "/assets/img/feature/fea-circle-5-1.png",
+    icon: "/assets/img/security/security-1.png",
   },
   {
     title: "Remote Access",
     description:
       "You will have complete access to the data, which can be accessed at any time, from anywhere.",
-    icon: "/assets/img/feature/fea-circle-5-1.png",
+    icon: "/assets/img/security/security-1.png",
   },
   {
     title: "Smooth Collaboration",
     description:
       "By allowing simultaneous access and contribution, Google Cloud makes collaboration on a project easier.",
-    icon: "/assets/img/feature/fea-circle-5-1.png",
+    icon: "/assets/img/security/security-1.png",
   },
   {
     title: "Unmatched Security",
     description:
       "Google is a name connected with security and its cloud counterpart is an appropriate instance for the same.",
-    icon: "/assets/img/feature/fea-circle-5-1.png",
+    icon: "/assets/img/security/security-1.png",
   },
 ];
 

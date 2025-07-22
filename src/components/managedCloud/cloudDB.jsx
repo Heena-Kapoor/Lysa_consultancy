@@ -5,25 +5,25 @@ const steps = [
     title: "Know The Score With Client Management",
     description:
       "You will have your own customer portal, regular reviews and reporting, a dedicated account manager, and round-the-clock support.",
-    icon: "/assets/img/feature/fea-circle-5-1.png",
+    icon: "/assets/img/security/security-1.png",
   },
   {
     title: "Stay On Top With Alerting And Monitoring",
     description:
       "You can feel secure as we monitor your apps and infrastructure, with incident response, log data mining, and proactive alerts.",
-    icon: "/assets/img/feature/fea-circle-5-1.png",
+    icon: "/assets/img/security/security-1.png",
   },
   {
     title: "Tune Up With Performance And Cost Optimization",
     description:
       "We will look after your app performance and cloud usage, your FinOps, and capacity planning. You look after your business.",
-    icon: "/assets/img/feature/fea-circle-5-1.png",
+    icon: "/assets/img/security/security-1.png",
   },
   {
     title: "Prevail With Tools & Managed Services Automation",
     description:
       "From automated provisioning, identity access management (IAM), and asset management to release and service delivery management, container and configuration management, and many more, we’re on it.",
-    icon: "/assets/img/feature/fea-circle-5-1.png",
+    icon: "/assets/img/security/security-1.png",
   },
 ];
 
