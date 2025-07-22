@@ -93,26 +93,51 @@ const WhyChoose = ({ style_carrer }) => {
 
           <div className={styles.whychooseGrid}>
             <div className={styles.card} style={{ gridArea: "item2" }}>
+              <img
+                src="/assets/img/security/security-1.png"
+                alt="icon"
+                className={styles.icon}
+              />
               <h4>{platform_data[1].title}</h4>
               <p>{platform_data[1].des}</p>
             </div>
 
             <div className={styles.card} style={{ gridArea: "item4" }}>
+              <img
+                src="/assets/img/security/security-1.png"
+                alt="icon"
+                className={styles.icon}
+              />
               <h4>{platform_data[3].title}</h4>
               <p>{platform_data[3].des}</p>
             </div>
 
             <div className={styles.card} style={{ gridArea: "item1" }}>
+              <img
+                src="/assets/img/security/security-1.png"
+                alt="icon"
+                className={styles.icon}
+              />
               <h4>{platform_data[0].title}</h4>
               <p>{platform_data[0].des}</p>
             </div>
 
             <div className={styles.card} style={{ gridArea: "item3" }}>
+              <img
+                src="/assets/img/security/security-1.png"
+                alt="icon"
+                className={styles.icon}
+              />
               <h4>{platform_data[2].title}</h4>
               <p>{platform_data[2].des}</p>
             </div>
 
             <div className={styles.card} style={{ gridArea: "item5" }}>
+              <img
+                src="/assets/img/security/security-1.png"
+                alt="icon"
+                className={styles.icon}
+              />
               <h4>{platform_data[4].title}</h4>
               <p>{platform_data[4].des}</p>
             </div>

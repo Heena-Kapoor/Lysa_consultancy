@@ -82,6 +82,12 @@
 
 /* Lift center card slightly upward */
 .whychooseGrid > div[style*="grid-area: item1"] {
-  margin-top: -140px;
+  margin-top: -200px;
+}
+
+.icon {
+  width: 90px;
+  height: 90px;
+  margin-bottom: 15px;
 }
 
