@@ -12,6 +12,7 @@ import ReducedCost from "./reducedCost";
 import Overview from "./overview";
 import { useEffect, useState } from "react";
 import Loader from "@/common/loader";
+import { useWindowSize } from "react-use";
 
 // slider setting
 const setting = {
@@ -47,6 +48,22 @@ const setting = {
 
 const HighAvailibilty = () => {
   const [loading, setLoading] = useState(true);
+  const { width } = useWindowSize();
+
+  let dynamicHeight;
+  if (width < 420) {
+    dynamicHeight = "370px";
+  } else if (width >= 900 && width < 1024) {
+    dynamicHeight = "300px";
+  } else if (width >= 1024 && width <= 1300) {
+    dynamicHeight = "290px";
+  } else if (width >= 1300 && width < 1355) {
+    dynamicHeight = "260px";
+  } else if (width >= 1355 && width < 1440) {
+    dynamicHeight = "280px";
+  } else if (width >= 1440 && width <= 1490) {
+    dynamicHeight = "260px";
+  }
 
   useEffect(() => {
     const timer = setTimeout(() => setLoading(false), 1000);
@@ -78,6 +95,7 @@ const HighAvailibilty = () => {
                 title={"The Perks with High Availability Solutions!"}
                 data={perks_data}
                 setting={setting}
+                height={dynamicHeight}
               />
               <DowntimeArea />
               <Overview style_service={true} />

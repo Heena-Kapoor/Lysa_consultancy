@@ -13,6 +13,7 @@ import ZeroDownTime from "./zero-downtime";
 import Getstarted from "./get-started";
 import { useEffect, useState } from "react";
 import Loader from "@/common/loader";
+import { useWindowSize } from "react-use";
 
 // slider setting
 const setting = {
@@ -48,6 +49,34 @@ const setting = {
 
 const Upgrade = () => {
   const [loading, setLoading] = useState(true);
+  const { width } = useWindowSize();
+
+  let dynamicHeight;
+  if (width < 480) {
+    // Small phones
+    dynamicHeight = "320px";
+  } else if (width >= 480 && width < 768) {
+    // Large phones / small tablets
+    dynamicHeight = "360px";
+  } else if (width >= 768 && width < 992) {
+    // Tablets
+    dynamicHeight = "320px";
+  } else if (width >= 992 && width < 1200) {
+    // Small laptops
+    dynamicHeight = "330px";
+  } else if (width >= 1200 && width < 1400) {
+    // Medium screens
+    dynamicHeight = "300px";
+  } else if (width >= 1400 && width < 1600) {
+    // Large screens
+    dynamicHeight = "340px";
+  } else if (width >= 1600 && width < 1920) {
+    // Extra-large desktops
+    dynamicHeight = "300px";
+  } else {
+    // Ultra-wide screens (1920px and up)
+    dynamicHeight = "300px";
+  }
 
   useEffect(() => {
     const timer = setTimeout(() => setLoading(false), 1000);
@@ -81,6 +110,7 @@ const Upgrade = () => {
                 title={"World’s Best Database Upgrade and Migration Services"}
                 data={migration_data}
                 setting={setting}
+                height={dynamicHeight}
               />
               <Getstarted />
               <CtaArea />

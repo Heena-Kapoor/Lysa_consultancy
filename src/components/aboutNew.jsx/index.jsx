@@ -13,6 +13,7 @@ import journey_data from "@/data/journey_data";
 import SliderArea from "@/common/slider-arae";
 import HeaderFive from "@/layout/headers/header-5";
 import Loader from "@/common/loader";
+import { useWindowSize } from "react-use";
 
 // slider setting
 const setting = {
@@ -38,6 +39,25 @@ const setting = {
 
 const About = () => {
   const [loading, setLoading] = useState(true);
+  const { width } = useWindowSize();
+
+  let dynamicHeight;
+  if (width < 420) {
+    dynamicHeight = "370px";
+  } else if (width >= 420 && width < 590) {
+    dynamicHeight = "280px";
+  } else if (width >= 590 && width < 650) {
+    // Large phones / small tablets
+    dynamicHeight = "410px";
+  } else if (width >= 650 && width < 840) {
+    // Large phones / small tablets
+    dynamicHeight = "350px";
+  } else if (width >= 840 && width <= 990) {
+    // Large phones / small tablets
+    dynamicHeight = "320px";
+  } else {
+    dynamicHeight = "280px";
+  }
 
   useEffect(() => {
     const timer = setTimeout(() => setLoading(false), 1000);
@@ -65,7 +85,7 @@ const About = () => {
             data={journey_data}
             setting={setting}
             showId={true}
-            height={"280px"}
+            height={dynamicHeight}
           />
           <CompanyArea />
           <CtaArea />

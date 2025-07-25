@@ -11,6 +11,7 @@ import SliderArea from "@/common/slider-arae";
 import whychoose_data from "@/data/why-choose-data";
 import { useEffect, useState } from "react";
 import Loader from "@/common/loader";
+import { useWindowSize } from "react-use";
 
 // slider setting
 const setting = {
@@ -36,6 +37,20 @@ const setting = {
 
 const RemoteDBAsupport = () => {
   const [loading, setLoading] = useState(true);
+  const { width } = useWindowSize();
+
+  let dynamicHeight;
+  if (width < 420) {
+    dynamicHeight = "370px";
+  }
+  else if ( width >= 570 && width <= 600) {
+    dynamicHeight = "400px";
+  } 
+  else if ( width >= 600 && width <= 800) {
+    dynamicHeight = "380px";
+  } else {
+    dynamicHeight = "300px";
+  }
 
   useEffect(() => {
     const timer = setTimeout(() => setLoading(false), 1000);
@@ -71,7 +86,7 @@ const RemoteDBAsupport = () => {
                 title={"Why Choose"}
                 data={whychoose_data}
                 setting={setting}
-                 height={"300px"}
+                height={dynamicHeight}
               />
               <ResultArea style_service={true} spacing="pt-80 pb-30" />
               <WorkArea />
