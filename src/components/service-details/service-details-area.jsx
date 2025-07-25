@@ -9,7 +9,7 @@ const ServiceDetailsArea = () => {
             <div className="col-xl-12 col-lg-12">
               <div className="sv-details-wrapper">
                 <div className="sv-details-text-2 mb-35">
-                  <h4 className="sv-details-text-title">Who We Are</h4>
+                  <h4 className="sv-details-text-title">Who we are</h4>
                   <p>
                     We are Lysa Consultancy, an India-headquartered provider of
                     custom software development and IT consulting services. As
@@ -31,7 +31,7 @@ const ServiceDetailsArea = () => {
                 </div>
                 <div className="sv-details-text mb-35">
                   <h4 className="sv-details-text-title pb-10">
-                    What Personal Data We Collect
+                    What personal data we collect
                   </h4>
                   <p>
                     Lysa Consultancy collects data to provide you with direct
@@ -178,7 +178,7 @@ const ServiceDetailsArea = () => {
                 </div>
                 <div className="sv-details-text-2 mb-35">
                   <h4 className="sv-details-text-title">
-                    Why We Collect Personal Data
+                    Why we collect personal data
                   </h4>
                   <p>
                     Lysa Consultancy collects the data for the following
@@ -211,7 +211,7 @@ const ServiceDetailsArea = () => {
                 </div>
                 <div className="sv-details-text mb-35">
                   <h4 className="sv-details-text-title pb-10">
-                    Why We Share Personal Data
+                    Why we share personal data
                   </h4>
                   <p>
                     We will share your information with our Development Centre,
@@ -275,7 +275,7 @@ const ServiceDetailsArea = () => {
                 </div>
                 <div className="sv-details-text mb-35">
                   <h4 className="sv-details-text-title pb-10">
-                    What Rights You Have
+                    What rights you have
                   </h4>
                   <p>
                     You are entitled to view, amend, or delete the personal
@@ -409,7 +409,7 @@ const ServiceDetailsArea = () => {
                 </div>
                 <div className="sv-details-text-2 mb-35">
                   <h4 className="sv-details-text-title">
-                    How We Secure Your Data
+                    How we secure your data
                   </h4>
                   <p>
                     We use a variety of security technologies and procedures to
@@ -421,7 +421,7 @@ const ServiceDetailsArea = () => {
                 </div>
                 <div className="sv-details-text mb-10">
                   <h4 className="sv-details-text-title pb-10">
-                    For How Long the Data Will Be Stored
+                    For how long the data will be stored
                   </h4>
                   <p>
                     Lysa Consultancy retains personal data for as long as
@@ -462,7 +462,7 @@ const ServiceDetailsArea = () => {
                 </div>
                 <div className="sv-details-text-2 mb-35">
                   <h4 className="sv-details-text-title">
-                    How We Change this Privacy Policy
+                    How we change this Privacy Policy
                   </h4>
                   <p>
                     We will update this privacy statement when necessary to

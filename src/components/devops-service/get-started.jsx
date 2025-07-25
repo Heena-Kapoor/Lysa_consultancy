@@ -2,7 +2,7 @@ import React from "react";
 
 const company_content = {
   sub_title: "Get Started Today",
-  title: <>Start Your DevOps Journeywith LYSA!</>,
+  title: <>Start your DevOps Journey with LYSA!</>,
   info_1: (
     <>
       With our Enterprise DevOps consulting services, we assist large and medium

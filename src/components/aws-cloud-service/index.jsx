@@ -1,6 +1,5 @@
 "use client";
 import ContextProvider from "@/context/ContextProvider";
-import AnimateMouse from "../homes/home-5/AnimateMouse";
 import HeaderFive from "@/layout/headers/header-5";
 import BreadcrumbEight from "@/common/breadcrumbs/breadcrumb-8";
 import CtaArea from "../contact/cta-area";
@@ -68,7 +67,7 @@ const AwsCloud = () => {
             <HeaderFive />
             <main>
               <BreadcrumbEight
-                spanText={"AWS Cloud Services"}
+                spanText={"AWS\u00A0\u00A0Cloud\u00A0\u00A0Services"}
                 title={
                   <>
                     LYSA AWS Cloud <br /> Services: <br /> Foundation of <br />{" "}
@@ -84,9 +83,10 @@ const AwsCloud = () => {
               <Getstarted />
               <SliderArea
                 subtitle={"Why Partner with LYSA for AWS Cloud Services?"}
-                title={"Let Us Take Care of Your Cloud Management."}
+                title={"Let us take care of your Cloud Management."}
                 data={aws_data}
                 setting={setting}
+                height={"250px"}
               />
               <AwsLysa />
               <CtaArea />

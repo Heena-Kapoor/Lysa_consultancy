@@ -4,7 +4,7 @@ import styles from "./SloutionArea.module.css";
 
 const platform_content = {
   sub_title: "OVERVIEW OF OUR REMOTE DBA SUPPORT",
-  title: "Solutions For Faster ROI!",
+  title: "Solutions for faster ROI!",
 };
 const { sub_title, title, description } = platform_content;
 
@@ -14,35 +14,35 @@ const platform_data = [
     icon: "/assets/img/blog/image.jpg",
     tag: "Performance",
     title: "Performance Enhancement",
-    des: "At LYSA CONSULTANCY, we optimize the database and its queries to operate in minimal time and enhance response times.",
+    des: "At LYSA CONSULTANCY, we optimize the database and its queries to operate in a minimal time and enhance response times. We use highly recognized applications of database management systems or database optimization solutions to access your database system.",
   },
   {
     id: 2,
     icon: "/assets/img/blog/image.jpg",
     tag: "Backup",
     title: "Backup and Recovery Tools",
-    des: "We configure and use the best backup tools and offer disaster recovery plans & remote DBA support.",
+    des: " We configure and use the best backup tools for taking backups and ensuring that backup is available in case of any disaster. We offer robust disaster recovery plans & remote dba support to provide best practices to minimize them.",
   },
   {
     id: 3,
     icon: "/assets/img/blog/image.jpg",
     tag: "Replication",
     title: "Replication",
-    des: "We assist in creating and maintaining multiple copies of your DB to ensure high availability.",
+    des: "We will assist you in creating and maintaining multiple copies of your database. Our database management services enhances availability, as the slave database servers can be configured to supersede the master database server if unavailable.",
   },
   {
     id: 4,
     icon: "/assets/img/blog/image.jpg",
     tag: "Automation",
     title: "Automation",
-    des: "Database automation to reduce deployment errors, increase reliability, and accelerate change implementation.",
+    des: "We offer the application of database management system that works automatically without any manual intervention. With database automation, you not only can reduce deployment errors, but increase reliability, and accelerate change implementation.",
   },
   {
     id: 5,
     icon: "/assets/img/blog/image.jpg",
     tag: "Support",
     title: "Daily BAU Support",
-    des: "We offer BAU support including troubleshooting, patching, tuning, and daily database operations.",
+    des: " We offer Business as usual support including troubleshooting, patching, tuning, and changes. We manage all databases’ daily BAU operations and help you to concentrate on your dba business/products rather than spending time on BAU issues.",
   },
 ];
 

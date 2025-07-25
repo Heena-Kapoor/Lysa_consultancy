@@ -2,7 +2,7 @@ import React from "react";
 
 const company_content = {
   sub_title: "Explore Our Resources",
-  title: <>Accelerate Your Database Upgrade And Migration!</>,
+  title: <>Accelerate your Database Upgrade and Migration!</>,
   info_1: (
     <>
       Explore our latest and greatest database upgrade and migration resources

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Navigation, Scrollbar } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-const SliderArea = ({ subtitle, title, data, setting, showId }) => {
+const SliderArea = ({ subtitle, title, data, setting, showId, height }) => {
   const [isDragged, setIsDragged] = useState(false);
 
   const handleSlideChange = () => {
@@ -48,6 +48,7 @@ const SliderArea = ({ subtitle, title, data, setting, showId }) => {
                     <SwiperSlide
                       key={i}
                       className="journey-slider-item p-relative"
+                      style={{ height: height }}
                     >
                       {showId && (
                         <div className="journey-stroke-text">
@@ -67,11 +68,11 @@ const SliderArea = ({ subtitle, title, data, setting, showId }) => {
 
                 <div
                   className="swiper-button-prev"
-                  style={{ color: "#6B14FA", top: "80px" }}
+                  style={{ color: "#6B14FA" }}
                 ></div>
                 <div
                   className="swiper-button-next"
-                  style={{ color: "#6B14FA", top: "80px" }}
+                  style={{ color: "#6B14FA" }}
                 ></div>
 
                 <div className="tp-scrollbar"></div>

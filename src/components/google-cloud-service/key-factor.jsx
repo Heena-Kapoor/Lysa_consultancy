@@ -31,7 +31,7 @@ const overview_data = [
   },
   {
     id: 2,
-    question: "Planning And Migration?",
+    question: "Planning and Migration?",
     answer: (
       <>
         Utilizing our skilled planning, refactoring, and deployment services,
@@ -48,7 +48,7 @@ const overview_data = [
   },
   {
     id: 3,
-    question: "Data And Analytics?",
+    question: "Data and Analytics?",
     answer: (
       <>
         Leverage end-to-end data and analytics solutions to make well-informed

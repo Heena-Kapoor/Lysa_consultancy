@@ -8,8 +8,8 @@ const service_content = {
   sub_title: "Our Services",
   title: (
     <>
-      Empowering Growth <br />
-      <span>with Business-Driven </span> <br /> <span>IT Expertise</span>{" "}
+      Empowering growth <br />
+      <span>with Business-Driven </span> <br /> <span>IT expertise</span>{" "}
     </>
   ),
   description: (

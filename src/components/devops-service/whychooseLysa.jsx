@@ -14,7 +14,7 @@ const steps = [
     icon: "/assets/img/security/security-1.png",
   },
   {
-    title: "Proficient And Talented Engineers",
+    title: "Proficient and Talented Engineers",
     description:
       "Our DevOps engineers have experience and expertise in all the advanced technologies, providing you with excellence at each stage of your DevOps transformation journey. Our specialists design products with a focus on process orientation, agile culture, and excellence in delivery.",
     icon: "/assets/img/security/security-1.png",
@@ -32,7 +32,7 @@ export default function WhychooseLysa() {
     <section className={styles.section}>
       <div className={styles.container}>
         <p className={styles.subtitle}>
-          Why Choose LYSA as Your DevOps Services Company?
+          Why choose LYSA as your DevOps Services Company?
         </p>
         <h2 className={styles.title}>
           Increase Business Agility, Reduce Costs, and Enhance Efficiency

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const sales_content = {
   sub_title: <>Your Crucial Data. Your Assured Cloud.</>,
-  title: <>Leave Your Cloud Infrastructure Management To The Specialists!</>,
+  title: <>Leave your Cloud Infrastructure management to the Specialists!</>,
   dub_title: <>Your Crucial Data. Your Assured Cloud.</>,
   description: (
     <>

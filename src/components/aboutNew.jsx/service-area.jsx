@@ -4,9 +4,9 @@ import React from 'react';
 import service_data from '@/data/service_data';
 
 const feature_content = {
-    title: <>Why Choose <span>LYSA CONSULTANCY’S</span> Services?</>,
+    title: <>Why choose <span>LYSA CONSULTANCY’S</span> services?</>,
     des: <>We bring a unique combination of business process expertisegrow your business.</>,
-    integraton_title: "Why Choose LYSA CONSULTANCY’S Services?",
+    integraton_title: "Why choose LYSA CONSULTANCY’S services?",
     integraton_des: <>We bring a unique combination of business process expertisegrow your business.</>,
 }
 const {title, des, integraton_title, integraton_des}  = feature_content

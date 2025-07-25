@@ -35,7 +35,7 @@ const GoogleCloudService = () => {
                 spanText={"Google Cloud Services"}
                 title={
                   <>
-                    A Seamless <br /> Migration To <br /> Google Cloud <br />{" "}
+                    A Seamless <br /> Migration to <br /> Google Cloud <br />{" "}
                     Services!
                   </>
                 }

@@ -28,7 +28,7 @@ const databseInner_data = [
         thumb_img: thumb_img_1,
         brand_logo: brand_logo_1,
         job_title: "IaC",
-        title: <>Infrastructure As A Code</>,
+        title: <>Infrastructure as a code</>,
         des: <>IaC allows for the automation of the deployment, configuration, and management of infrastructure resources using code that can be versioned, tested, and deployed in a similar way as any other software application. With IaC, infrastructure is defined using a declarative language or a scripting language that specifies the desired state of the infrastructure. This allows for the creation of templates that can be reused across different environments and configurations, leading to consistent deployments and a reduction in human error. IaC also provides the ability to version control infrastructure configurations, which allows for collaboration, rollbacks, and better auditing of changes.</>,
         delay: ".5s",
     },

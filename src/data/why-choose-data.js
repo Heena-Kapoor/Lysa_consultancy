@@ -2,7 +2,7 @@ const whychoose_data = [
   {
     id: "01",
     date: "Database Growth",
-    title: <>Understand Database Growth Trends</>,
+    title: <>Understand Database growth trends</>,
     description: (
       <>
         To ensure that your database keeps performing optimally, we anticipate
@@ -14,7 +14,7 @@ const whychoose_data = [
   {
     id: "02",
     date: "PostgreSQL",
-    title: <>Rely On PostgreSQL - Certified DBAS</>,
+    title: <>Rely on PostgreSQL - Certified DBAS</>,
     description: (
       <>
         Capitalize on LYSA's decades of expertise and some of the finest DBAs in
@@ -49,7 +49,7 @@ const whychoose_data = [
   {
     id: "05",
     date: "DBA Team",
-    title: <>Augment Your DBA Team</>,
+    title: <>Augment your DBA Team</>,
     description: (
       <>
         Lessen expenses without compromising access to technical knowledge with

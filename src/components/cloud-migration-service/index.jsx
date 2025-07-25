@@ -69,8 +69,8 @@ const CloundMigration = () => {
                 spanText={"AWS Cloud Services"}
                 title={
                   <>
-                    Fulfill Maximum <br /> ROI with Our <br /> Expert Cloud{" "}
-                    <br /> Cloud Migration Services
+                    Fulfill maximum <br /> ROI with our <br /> Expert Cloud{" "}
+                    <br /> Migration Services
                   </>
                 }
                 desc={

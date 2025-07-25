@@ -14,7 +14,7 @@ const cta_content = {
   sub_title: "HOW DOES LYSA MAKE A DIFFERENCE?",
   title: (
     <>
-      <span>Streamline, Fill Gaps, Automate, And Innovate!</span>
+      <span>Streamline, Fill Gaps, Automate, and Innovate!</span>
     </>
   ),
   des: (

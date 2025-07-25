@@ -61,10 +61,11 @@ const About = () => {
           <ServiceArea />
           <SliderArea
             subtitle={"Know What We’re All About!"}
-            title={"Get The Inside Scoop About LYSA"}
+            title={"Get the inside scoop about LYSA"}
             data={journey_data}
             setting={setting}
             showId={true}
+            height={"280px"}
           />
           <CompanyArea />
           <CtaArea />

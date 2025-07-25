@@ -5,10 +5,10 @@ const sales_content = {
   sub_title: <>Reduced Cost With LYSA!</>,
   title: (
     <>
-      <span>Integrated And Comprehensive</span> High Available Technologies!
+      <span>Integrated and Comprehensive</span> High Available Technologies!
     </>
   ),
-  dub_title: <>Integrated And Comprehensive High Available Technologies!</>,
+  dub_title: <>Integrated and Comprehensive High Available Technologies!</>,
   description: (
     <>
       LYSA has a unique understanding of how to design, implement, and manage a

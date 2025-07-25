@@ -8,7 +8,6 @@ import FeatureArea from "./feature-area";
 import HeroArea from "./hero-area";
 import PlanArea from "./plan-area";
 import ServiceArea from "./service-area";
-import AnimateMouse from "./AnimateMouse";
 import { useEffect, useState } from "react";
 import Loader from "@/common/loader";
 

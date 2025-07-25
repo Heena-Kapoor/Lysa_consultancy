@@ -63,7 +63,7 @@ const Upgrade = () => {
             <HeaderFive />
             <main>
               <BreadcrumbEight
-                spanText={"Database Upgrade & Migration!"}
+                spanText={"Database\u00A0\u00A0Upgrade & Migration!"}
                 title={
                   <>
                     Seamless DB <br /> Migration
@@ -78,7 +78,7 @@ const Upgrade = () => {
               <ZeroDownTime />
               <SliderArea
                 subtitle={"Overview Of Our Services!"}
-                title={"World’s Best Database Upgrade And Migration Services"}
+                title={"World’s Best Database Upgrade and Migration Services"}
                 data={migration_data}
                 setting={setting}
               />

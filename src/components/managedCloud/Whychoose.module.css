@@ -1,93 +1,49 @@
-.whychooseSection {
-  background-color: #eaf4fc;
-  padding: 60px 20px;
-  text-align: center;
+.solutionArea {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #fff;
 }
 
-.whychooseHeader {
-  margin-bottom: 50px;
+.card {
+  padding: 30px 25px;
+  border-radius: 16px;
+  border: 1px solid #eee;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  height: 100%;
+  background-color: #fff;
 }
 
-.subtitle {
-  color: #ff4c4c;
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+.icon {
+  margin-bottom: 25px;
+}
+
+.badge {
+  display: inline-block;
+  background-color: #f5f7fa;
+  color: #555;
+  font-size: 12px;
   font-weight: 600;
-  font-size: 22px;
+  padding: 4px 12px;
+  border-radius: 999px;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
 
 .title {
-  font-size: 32px;
-  font-weight: bold;
-  color: #1e293b;
-}
-
-/* Triangle grid layout */
-.whychooseGrid {
-  display: grid;
-  grid-template-areas:
-    "item2  .    item4"
-    "item3 item1 item5";
-  gap: 30px;
-  justify-items: center;
-  align-items: start;
-}
-
-/* Card styles */
-.card {
-  background: #fff;
-  border-radius: 12px;
-  padding: 20px;
-  width: 100%;
-  max-width: 320px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
-  transition: transform 0.3s ease;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-}
-
-.card span {
-  font-weight: bold;
   font-size: 18px;
-  color: #0f172a;
+  font-weight: 700;
+  color: #0e1b3d;
+  margin-bottom: 10px;
 }
 
-.card h4 {
-  font-size: 20px;
-  font-weight: 600;
-  margin-top: 10px;
-  color: #1e293b;
+.description {
+  font-size: 15px;
+  color: #4f5a70;
+  line-height: 1.6;
 }
-
-.card p {
-  font-size: 16px;
-  color: #475569;
-  margin-top: 8px;
-  line-height: 1.5;
-}
-
-/* Responsive behavior */
-@media (max-width: 992px) {
-  .whychooseGrid {
-    grid-template-areas:
-      "item1"
-      "item2"
-      "item3"
-      "item4"
-      "item5";
-  }
-}
-
-/* Lift center card slightly upward */
-.whychooseGrid > div[style*="grid-area: item1"] {
-  margin-top: -200px;
-}
-
-.icon {
-  width: 90px;
-  height: 90px;
-  margin-bottom: 15px;
-}
-

@@ -2,7 +2,7 @@ const aws_data = [
     {
         id: "01",
         date: "Costs And Constraints",
-        title: <>Reduced Costs And Constraints</>,
+        title: <>Reduced Costs and Constraints</>,
         description: (
             <>
                 Reduce on-premises environment maintenance costs, license constraints, and compliance issues.
@@ -42,7 +42,7 @@ const aws_data = [
     {
         id: "05",
         date: "Planning And Migration",
-        title: <>Planning And Migration</>,
+        title: <>Planning and Migration</>,
         description: (
             <>
                 Utilize our expert planning, deployment, and refactoring services to migrate systems with assurance.

@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const sales_content = {
   sub_title: <>Get Smart Migration With LYSA!</>,
-  title: <>Migrate Your Data Seamlessly With <span>Minimal Or Zero Downtime!</span></>,
-  dub_title: <>Get Smart Migration With LYSA!</>,
+  title: <>Migrate your data seamlessly with <span>Minimal Or Zero Downtime!</span></>,
+  dub_title: <>Get smart Migration with LYSA!</>,
   description: (
     <>
       Leveraging unique tools and methods, our migration experts migrate all

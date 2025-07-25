@@ -1,6 +1,5 @@
 "use client";
 import ContextProvider from "@/context/ContextProvider";
-import AnimateMouse from "../homes/home-5/AnimateMouse";
 import HeaderFive from "@/layout/headers/header-5";
 import BreadcrumbEight from "@/common/breadcrumbs/breadcrumb-8";
 import CtaArea from "../contact/cta-area";
@@ -53,13 +52,13 @@ const RemoteDBAsupport = () => {
             <HeaderFive />
             <main>
               <BreadcrumbEight
-                spanText={"REMOTE DBA"}
+                spanText={"Remote\u00A0\u00A0DBA"}
                 title={
                   <>
                     Solve & Upgrade
                     <br />
                     Your Remote DBA <br />
-                    Issues With Us!
+                    Issues with us!
                   </>
                 }
                 desc={
@@ -72,6 +71,7 @@ const RemoteDBAsupport = () => {
                 title={"Why Choose"}
                 data={whychoose_data}
                 setting={setting}
+                 height={"300px"}
               />
               <ResultArea style_service={true} spacing="pt-80 pb-30" />
               <WorkArea />

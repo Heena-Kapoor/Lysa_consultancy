@@ -2,7 +2,7 @@ import React from "react";
 
 const company_content = {
   sub_title: "Get Started Today",
-  title: <>Explore Our Resources</>,
+  title: <>Explore our resources</>,
   info_1: (
     <>
       Explore our latest and greatest AWS Cloud resources and success stories to

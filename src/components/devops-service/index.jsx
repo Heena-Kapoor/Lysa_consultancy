@@ -73,7 +73,7 @@ const DevOps = () => {
                 spanText={"DevOps"}
                 title={
                   <>
-                    Speed Up <br /> Business With <br /> DevOps Consulting{" "}
+                    Speed up <br /> Business with <br /> DevOps Consulting{" "}
                     <br /> Services
                   </>
                 }
@@ -84,10 +84,11 @@ const DevOps = () => {
               <DiffrenceArea />
               <PerksGain />
               <SliderArea
-                subtitle={"Assisting You Through DevOps."}
-                title={"Attain DevOps Success with Our Consulting Services!"}
+                subtitle={"Assisting you through DevOps."}
+                title={"Attain DevOps Success with our Consulting Services!"}
                 data={devops_data}
                 setting={setting}
+                height={"300px"}
               />
               <GetResult />
               <WhychooseLysa />

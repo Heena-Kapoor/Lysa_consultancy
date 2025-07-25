@@ -2,25 +2,25 @@ import styles from './DatabaseMigrationProcess.module.css';
 
 const steps = [
   {
-    title: "It Begins With A Plan",
+    title: "It begins with a plan",
     description:
       "We will examine and comprehend your current architecture, gaps, business needs, and future growth requirements.",
     icon: "/assets/img/security/security-1.png",
   },
   {
-    title: "The Implementation Makes It Absolute",
+    title: "Implementation makes it absolute",
     description:
       "Then it is time to move your current workloads efficiently while minimizing downtime and risk.",
     icon: "/assets/img/security/security-1.png",
   },
   {
-    title: "Custom Design Makes It Yours",
+    title: "Custom design makes it yours",
     description:
       "Our next step is to design your target architecture and create your custom migration roadmap.",
     icon: "/assets/img/security/security-1.png",
   },
   {
-    title: "Post-Implementation Support",
+    title: "Post-Implementation support",
     description:
       "You will be worry-free with our 30-day guarantee of monitoring and support for your new environment.",
     icon: "/assets/img/security/security-1.png",

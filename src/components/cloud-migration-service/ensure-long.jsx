@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const sales_content = {
   sub_title: <>Raise Your Game: Migrate To The Cloud Efficiently!</>,
-  title: <>Ensure Long-Term Cloud Migration Success With LYSA!</>,
+  title: <>Ensure long-term Cloud Migration success with LYSA!</>,
   dub_title: <>Raise Your Game: Migrate To The Cloud Efficiently!</>,
   description: (
     <>

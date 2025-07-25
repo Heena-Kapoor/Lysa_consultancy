@@ -4,7 +4,7 @@ import Image from "next/image";
 const sales_content = {
   sub_title: <>GET RESULTS</>,
   title: (
-    <>Discover the Benefit Of Our DevOps Consulting Services to Your Company!</>
+    <>Discover the benefit of our DevOps Consulting Services to your company!</>
   ),
   dub_title: <>GET RESULTS</>,
   description: (

@@ -25,7 +25,7 @@ const plan_content = {
     <>
       <span>One-Stop Solution</span>
       <br />
-      For All IT Needs
+      for all IT needs
     </>
   ),
   des: (

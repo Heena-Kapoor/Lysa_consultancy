@@ -35,7 +35,7 @@ export default function CloudExperience() {
           Experience The Perks Of AWS Cloud Services!
         </p> */}
         <h2 className={styles.title}>
-          Experience The Perks Of Cloud Migration Services!
+          Experience the perks of Cloud Migration Services!
         </h2>
 
         <div className={styles.grid}>

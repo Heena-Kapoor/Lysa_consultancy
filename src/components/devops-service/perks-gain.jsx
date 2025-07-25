@@ -31,7 +31,7 @@ export default function PerksGain() {
   return (
     <section className={styles.section}>
       <div className={styles.container}>
-        <h2 className={styles.title}>The Perks You Gain With DevOps!</h2>
+        <h2 className={styles.title}>The perks you gain with DevOps!</h2>
 
         <div className={styles.grid}>
           {steps.map((step, index) => (

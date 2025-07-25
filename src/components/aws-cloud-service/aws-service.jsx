@@ -12,12 +12,12 @@ const cta_content = {
   ],
   title: (
     <>
-      <span>AWS Services From Lysa Technology</span>
+      <span>AWS Services from Lysa Technology</span>
     </>
   ),
   feature_list: [
     {
-      title: "Total solution For BI, Applications & Databases!",
+      title: "Total solution for BI, Applications & Databases!",
       description:
         "LYSA has access to an extensive range of resources and training to deploy, run and manage applications in the AWS cloud Services. From developing your cloud strategies and initial migration analysis to production cutovers and optimization, our certified AWS specialists will guide you through the entire cloud migration lifecycle.",
     },

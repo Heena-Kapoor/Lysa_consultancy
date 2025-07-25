@@ -39,7 +39,7 @@ const feature_data = [
         id: 4,
         color: "4",
         img: feature_img_4,
-        title: <>Built On A Software-Driven Platform</>,
+        title: <>Built on a Software-Driven Platform</>,
         description: <>
             Our database care and application performance monitoring tools, created by delivery experts, quickly and affordably fix issues before they disrupt operations.
         </>,

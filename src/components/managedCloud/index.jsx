@@ -1,6 +1,5 @@
 "use client";
 import ContextProvider from "@/context/ContextProvider";
-import AnimateMouse from "../homes/home-5/AnimateMouse";
 import HeaderFive from "@/layout/headers/header-5";
 import BreadcrumbEight from "@/common/breadcrumbs/breadcrumb-8";
 import CtaArea from "../contact/cta-area";
@@ -31,7 +30,7 @@ const ManagedCloud = () => {
             <HeaderFive />
             <main>
               <BreadcrumbEight
-                spanText={"Cloud Database Management"}
+                spanText={"Cloud\u00A0\u00A0Database\u00A0\u00A0Management"}
                 title={
                   <>
                     Managed Cloud <br /> Database Service
