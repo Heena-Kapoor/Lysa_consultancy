@@ -89,6 +89,7 @@ const FaqArea = ({ style_service }) => {
                 <div
                   className="tp-faq-img"
                   data-parallax='{"x": -50, "smoothness": 30}'
+                  style={{ bottom: "-1%", left: "26%" }}
                 >
                   <Image src={img} alt="" height={150} width={150} />
                 </div>

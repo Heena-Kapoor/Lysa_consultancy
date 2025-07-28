@@ -105,13 +105,7 @@ const WhyChoose = ({ style_carrer }) => {
               {title}
             </h3>
           </div>
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(5, 1fr)",
-              gap: "20px",
-            }}
-          >
+          <div className={styles.gridWrapper}>
             {platform_data.map((item) => (
               <div key={item.id}>
                 <div className={styles.card}>
