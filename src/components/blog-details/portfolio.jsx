@@ -4,8 +4,6 @@ import Link from 'next/link';
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-
-
 const setting = {
     slidesPerView: 3,
     spaceBetween: 30,
@@ -28,7 +26,6 @@ const setting = {
     },
 
 }
-
 
 const Portfolio = () => {
 

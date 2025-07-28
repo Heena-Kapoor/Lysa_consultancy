@@ -1,5 +1,4 @@
 import useBreadcrumbTitleAnime from "@/hooks/useBreadcrumbTitleAnime";
-import useCharAnimation from "@/hooks/useCharAnimation";
 import useTitleAnimation from "@/hooks/useTitleAnimation";
 import Image from "next/image";
 import Link from "next/link";

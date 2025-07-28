@@ -1,6 +1,5 @@
 "use client";
 import ContextProvider from "@/context/ContextProvider";
-import AnimateMouse from "../homes/home-5/AnimateMouse";
 import HeaderFive from "@/layout/headers/header-5";
 import CtaArea from "../contact/cta-area";
 import FooterFive from "@/layout/footers/footer-5";

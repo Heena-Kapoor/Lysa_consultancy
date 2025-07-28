@@ -1,7 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
 import ContextProvider from "@/context/ContextProvider";
-import AnimateMouse from "../homes/home-5/AnimateMouse";
 import Breadcrumb from "@/common/breadcrumbs/breadcrumb";
 import HeroBanner from "@/common/hero-banner";
 import PlanArea from "../homes/home-5/plan-area";
@@ -47,13 +46,10 @@ const About = () => {
   } else if (width >= 420 && width < 590) {
     dynamicHeight = "280px";
   } else if (width >= 590 && width < 650) {
-    // Large phones / small tablets
     dynamicHeight = "410px";
   } else if (width >= 650 && width < 840) {
-    // Large phones / small tablets
     dynamicHeight = "350px";
   } else if (width >= 840 && width <= 990) {
-    // Large phones / small tablets
     dynamicHeight = "320px";
   } else {
     dynamicHeight = "280px";

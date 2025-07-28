@@ -1,12 +1,9 @@
 import React from 'react';
-
-
 import img_1 from "@/assets/img/contact/contact-icon-sm-5.png";
 import img_2 from "@/assets/img/contact/contact-icon-sm-6.png";
 import img_3 from "@/assets/img/contact/contact-icon-sm-7.png";
 import Image from 'next/image';
 import Link from 'next/link';
-
 
 // office location data
 const office_data = [

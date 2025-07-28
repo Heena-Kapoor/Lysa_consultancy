@@ -1,10 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import AnswerQuestion from "@/common/answer-question";
-
 import img from "@/assets/img/faq/faq-1.png";
-import Link from "next/link";
-import PhoneFour from "@/svg/phone-4";
 
 const faq_content = {
   sub_title: "4 Key Factors!",
