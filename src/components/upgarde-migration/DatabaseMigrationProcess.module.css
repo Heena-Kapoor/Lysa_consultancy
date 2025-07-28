@@ -14,21 +14,27 @@
 .subtitle {
   color: #ff4c4c;
   font-weight: 600;
-  font-size: 30px;
+  font-size: 2rem;
   margin-bottom: 10px;
   text-transform: uppercase;
 }
 
 .title {
-  font-size: 30px;
+  font-size: 2rem;
   font-weight: bold;
   margin-bottom: 40px;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(2, 1fr); /* 2 columns on desktop */
   gap: 20px;
+}
+
+@media (max-width: 991px) {
+  .grid {
+    grid-template-columns: 1fr; /* 1 column on tablet & mobile */
+  }
 }
 
 .card {
@@ -45,18 +51,62 @@
 }
 
 .icon {
-  width: 90px;
-  height: 90px;
+  width: 80px;
+  height: 80px;
   margin-bottom: 15px;
 }
 
 .cardTitle {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
   margin-bottom: 10px;
 }
 
 .cardDescription {
-  font-size: 16px;
+  font-size: 1rem;
   color: #555;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .section {
+    padding: 40px 15px;
+  }
+
+  .subtitle,
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .card {
+    padding: 20px;
+  }
+
+  .icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .cardTitle {
+    font-size: 1.125rem;
+  }
+
+  .cardDescription {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .subtitle,
+  .title {
+    font-size: 1.25rem;
+  }
+
+  .card {
+    padding: 16px;
+  }
 }

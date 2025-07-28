@@ -179,10 +179,10 @@
         padding: 45px 50px;
         border-right: 2px solid var(--tp-common-white);
         height: 100%;
-        @media #{$xs}{
-            flex-wrap: wrap;
-            padding: 30px 20px;
-        }
+        // @media #{$xs}{
+        //     flex-wrap: wrap;
+        //     padding: 30px 20px;
+        // }
     }
     &-img{ 
         margin-right: 20px;

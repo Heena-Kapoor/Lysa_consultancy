@@ -41,18 +41,18 @@ const BreadcrumbEight = ({ spanText, title, desc }) => {
 
                     {/* Right Column: Contact Info */}
                     <div className="col-xl-4 col-lg-4 col-md-12">
-                      <div className="breadcrumb__client-info d-flex align-items-center justify-content-lg-end gap-3 mt-3 mt-lg-0">
+                      <div className="breadcrumb__client-info d-flex flex-column flex-lg-row align-items-start align-items-lg-center justify-content-lg-end gap-3 mt-3 mt-lg-0">
                         <span className="text-white mb-0">
                           Call for any question
                           <br />
-                          <span className="mt-1 mb-0 text-white">
+                          <span className="mt-1 mb-0 text-white d-block">
                             (+91) 8595-363-651
                           </span>
                         </span>
 
                         <div className="breadcrumb__live-btn">
                           <Link
-                            className="tp-btn-inner white-bg text-black d-flex align-items-center gap-2"
+                            className="tp-btn-inner white-bg text-black d-flex align-items-center gap-2 px-3 py-2"
                             href="/contact"
                           >
                             <PhoneFour height={18} width={18} /> Contact Us

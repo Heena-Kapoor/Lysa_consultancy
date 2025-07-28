@@ -14,20 +14,20 @@
 .subtitle {
   color: #ff4c4c;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 1.5rem;
   margin-bottom: 10px;
   text-transform: uppercase;
 }
 
 .title {
-  font-size: 30px;
+  font-size: 2rem;
   font-weight: bold;
   margin-bottom: 40px;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(2, 1fr); /* 2 columns by default */
   gap: 20px;
 }
 
@@ -51,12 +51,49 @@
 }
 
 .cardTitle {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
   margin-bottom: 10px;
 }
 
 .cardDescription {
-  font-size: 16px;
+  font-size: 1rem;
   color: #555;
+}
+
+/* Tablet & below: 1 column */
+@media (max-width: 991px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .section {
+    padding: 40px 15px;
+  }
+
+  .subtitle,
+  .title {
+    font-size: 1.375rem;
+  }
+
+  .card {
+    padding: 25px;
+  }
+
+  .icon {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+/* Small mobile screens */
+@media (max-width: 480px) {
+  .subtitle,
+  .title {
+    font-size: 1.25rem;
+  }
+
+  .cardDescription {
+    font-size: 0.95rem;
+  }
 }
