@@ -40,13 +40,13 @@ const RemoteDBAsupport = () => {
   const { width } = useWindowSize();
 
   let dynamicHeight;
-  if (width < 420) {
-    dynamicHeight = "370px";
-  }
-  else if ( width >= 570 && width <= 600) {
+  if (width < 310) {
+    dynamicHeight = "410px";
+  } else if (width >= 310 && width <= 420) {
+    dynamicHeight = "350px";
+  } else if (width >= 570 && width <= 600) {
     dynamicHeight = "400px";
-  } 
-  else if ( width >= 600 && width <= 800) {
+  } else if (width >= 600 && width <= 800) {
     dynamicHeight = "380px";
   } else {
     dynamicHeight = "300px";

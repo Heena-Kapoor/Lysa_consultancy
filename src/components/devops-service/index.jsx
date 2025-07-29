@@ -14,6 +14,7 @@ import Getstarted from "./get-started";
 import DevopsLysa from "./devopsLysa";
 import { useEffect, useState } from "react";
 import Loader from "@/common/loader";
+import { useWindowSize } from "react-use";
 
 // slider setting
 const setting = {
@@ -53,11 +54,24 @@ const setting = {
 
 const DevOps = () => {
   const [loading, setLoading] = useState(true);
+  const { width } = useWindowSize();
 
   useEffect(() => {
     const timer = setTimeout(() => setLoading(false), 1000);
     return () => clearTimeout(timer);
   }, []);
+
+  let dynamicHeight;
+  if (width < 280) {
+    dynamicHeight = "340px";
+  }
+  else if (width >= 280 && width <= 378) {
+    dynamicHeight = "300px";
+  } else if (width >= 378 && width <= 570) {
+    dynamicHeight = "240px";
+  } else {
+    dynamicHeight = "300px";
+  }
 
   return (
     <>
@@ -87,7 +101,7 @@ const DevOps = () => {
                 title={"Attain DevOps Success with our Consulting Services!"}
                 data={devops_data}
                 setting={setting}
-                height={"300px"}
+                height={dynamicHeight}
               />
               <GetResult />
               <WhychooseLysa />
