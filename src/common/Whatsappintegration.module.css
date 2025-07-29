@@ -1,10 +1,16 @@
 .wtp1 {
-    z-index: 800000;
-    position: fixed;
-    bottom: 52px;
-    left: 15px;
-   }
- 
- .wtp{
-   background-color: #1ad03f !important;
- }
+  z-index: 800000;
+  position: fixed;
+  bottom: 52px;
+  left: 15px;
+}
+
+.wtp {
+  background-color: #1ad03f !important;
+}
+
+@media (max-width: 767px) {
+  .wtp1 {
+    bottom: 5px;
+  }
+}
