@@ -8,7 +8,7 @@ import React, { useEffect } from "react";
 import shape_1 from "../../../../public/assets/img/hero/hero-circle-5-1.png";
 import shape_2 from "../../../../public/assets/img/hero/hero-circle-5-2.png";
 import shape_3 from "../../../../public/assets/img/hero/hero-circle-5-3.png";
-import shape_4 from "../../../../public/assets/img/hero/hero-shape-5-1-1.png";
+import shape_4 from "../../../../public/assets/img/lysa/home/home-banner.jpg";
 import shape_5 from "../../../../public/assets/img/hero/home-shape-1-1.png";
 import shape_6 from "../../../../public/assets/img/hero/home-shape-1-2.png";
 
@@ -100,12 +100,12 @@ const HeroArea = () => {
               alt="theme-pure"
             />
           </div>
-          <div className="tp-hero-five-2-sub-img-1 d-none d-md-block">
+          {/* <div className="tp-hero-five-2-sub-img-1 d-none d-md-block">
             <Image src={shape_5} alt="theme-pure" />
           </div>
           <div className="tp-hero-five-2-sub-img-2 d-none d-md-block">
             <Image src={shape_6} alt="theme-pure" />
-          </div>
+          </div> */}
         </div>
       </div>
     </>

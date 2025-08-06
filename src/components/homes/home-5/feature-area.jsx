@@ -45,7 +45,7 @@ const FeatureArea = ({ style_integraton }) => {
           </div>
           <div className="row gx-0 tp-feature-five-wrapper-main">
             {feature_data.map((item, i) => (
-              <div key={i} className="col-xl-3 col-lg-6 col-md-6">
+              <div key={i} className="col-xl-4 col-lg-6 col-md-6">
                 <div className="tp-feature-five-wrapper">
                   <div
                     className={`tp-feature-five-item tp-feature-five-item-${item.color} text-center z-index`}

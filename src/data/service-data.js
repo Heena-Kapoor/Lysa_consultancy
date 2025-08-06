@@ -1,8 +1,8 @@
 // images import  
-import img_1 from "../../public/assets/img/service/sv-icon-1.png";
-import img_2 from "../../public/assets/img/service/sv-icon-2.png";
-import img_3 from "../../public/assets/img/service/sv-icon-3.png";
-import img_4 from "../../public/assets/img/service/sv-icon-4.png";
+import img_1 from "../../public/assets/img/lysa/home/database-icon.png";
+import img_2 from "../../public/assets/img/lysa/home/cloud-icon.png";
+import img_3 from "../../public/assets/img/lysa/home/devops-icon.png";
+import img_4 from "../../public/assets/img/lysa/home/contact-icon.png";
 
 const service_data = [
     // for home 01 

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import plan_img_1 from "../../../../public/assets/img/plan/plan-1.png"
+import plan_img_1 from "../../../../public/assets/img/lysa/home/thrive-anywhere.jpg"
 import plan_img_2 from "../../../../public/assets/img/plan/plan-2.png"
 import plan_img_3 from "../../../../public/assets/img/plan/plan-3.png"
 import plan_img_4 from "../../../../public/assets/img/plan/plan-4.png"
@@ -14,11 +14,11 @@ import Link from 'next/link';
 const cta_content = {
     img_box: [
         { id: 1, img: plan_img_1, cls: "1", },
-        { id: 2, img: plan_img_2, cls: "2 d-none d-sm-block", },
-        { id: 3, img: plan_img_3, cls: "3 d-none d-sm-block", },
-        { id: 4, img: plan_img_4, cls: "4", },
-        { id: 5, img: plan_img_5, cls: "5", },
-        { id: 6, img: plan_img_6, cls: "6", },
+        // { id: 2, img: plan_img_2, cls: "2 d-none d-sm-block", },
+        // { id: 3, img: plan_img_3, cls: "3 d-none d-sm-block", },
+        // { id: 4, img: plan_img_4, cls: "4", },
+        // { id: 5, img: plan_img_5, cls: "5", },
+        // { id: 6, img: plan_img_6, cls: "6", },
     ],
     sub_title: "Works About",
     title: <><span>Thrive Anywhere</span><br />Modernize with Confidence</>,

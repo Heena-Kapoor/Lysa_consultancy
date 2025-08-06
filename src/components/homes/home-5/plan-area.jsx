@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-import plan_img_1 from "../../../../public/assets/img/plan/plan-1-1.png";
+import plan_img_1 from "../../../../public/assets/img/lysa/home/mission-vision.jpg";
 import plan_img_2 from "../../../../public/assets/img/plan/plan-1-2.png";
 import plan_img_3 from "../../../../public/assets/img/plan/plan-1-3.png";
 import plan_img_4 from "../../../../public/assets/img/plan/plan-1-4.png";
@@ -13,11 +13,11 @@ import img from "../../../../public/assets/img/cta/cta-title-icon-2.png";
 const plan_content = {
   img_box: [
     { id: 1, img: plan_img_1, cls: "1" },
-    { id: 2, img: plan_img_2, cls: "2 d-none d-sm-block" },
-    { id: 3, img: plan_img_3, cls: "3" },
-    { id: 4, img: plan_img_4, cls: "4" },
-    { id: 5, img: plan_img_5, cls: "5 d-none d-sm-block" },
-    { id: 6, img: plan_img_6, cls: "6 d-none d-sm-block" },
+    // { id: 2, img: plan_img_2, cls: "2 d-none d-sm-block" },
+    // { id: 3, img: plan_img_3, cls: "3" },
+    // { id: 4, img: plan_img_4, cls: "4" },
+    // { id: 5, img: plan_img_5, cls: "5 d-none d-sm-block" },
+    // { id: 6, img: plan_img_6, cls: "6 d-none d-sm-block" },
   ],
 
   sub_title: "LYSA",
