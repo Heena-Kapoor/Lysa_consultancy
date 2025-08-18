@@ -71,7 +71,7 @@ const About = () => {
           <HeroBanner
             title="About"
             subtitle="Us"
-            bg_img="/assets/img/breadcrumb/breadcrumb-2.jpg"
+            bg_img="/assets/img/lysa/about/about-banner.jpg"
           />
           <PlanArea />
           <ServiceArea />

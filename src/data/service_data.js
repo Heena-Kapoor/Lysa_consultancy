@@ -1,8 +1,8 @@
 
-import feature_img_1 from "../../public/assets/img/feature/fea-icon-5-1.png"
-import feature_img_2 from "../../public/assets/img/feature/fea-icon-5-2.png"
-import feature_img_3 from "../../public/assets/img/feature/fea-icon-5-3.png"
-import feature_img_4 from "../../public/assets/img/feature/fea-icon-5-4.png"
+import feature_img_1 from "../../public/assets/img/lysa/about/stronger.png"
+import feature_img_2 from "../../public/assets/img/lysa/about/proven.png"
+import feature_img_3 from "../../public/assets/img/lysa/about/flexible.png"
+import feature_img_4 from "../../public/assets/img/lysa/about/meticulous.png"
 
 const service_data = [
     {
