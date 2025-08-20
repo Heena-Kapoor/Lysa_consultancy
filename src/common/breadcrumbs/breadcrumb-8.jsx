@@ -7,11 +7,19 @@ import shape_1 from "@/assets/img/breadcrumb/breadcrumb-shape-1.png";
 import shape_2 from "@/assets/img/breadcrumb/breadcrumb-shape-2.png";
 import PhoneFour from "@/svg/phone-4";
 
-const BreadcrumbEight = ({ spanText, title, desc }) => {
+const BreadcrumbEight = ({ spanText, title, desc, bgImage }) => {
   const { animeRef } = useBreadcrumbTitleAnime();
   return (
     <>
-      <div className="breadcrumb__area pt-80 pb-10 p-relative blue-bg-2 fix">
+      <div
+        className="breadcrumb__area pt-80 pb-10 p-relative fix blue-bg-2"
+        style={{
+          backgroundImage: `url(${bgImage})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }}
+      >
         <div className="breadcrumb__shape-1">
           <Image src={shape_1} alt="theme-pure" />
         </div>

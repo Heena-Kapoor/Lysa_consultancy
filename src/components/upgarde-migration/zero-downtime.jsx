@@ -47,7 +47,7 @@ const ZeroDownTime = ({ style_service }) => {
             >
               <div className="tp-sales-img-wrapper p-relative text-end">
                 <Image
-                  src="/assets/img/card/card-bg.png"
+                  src="/assets/img/lysa/upgration-migration/migrate-your-data.webp"
                   alt="theme-pure"
                   width={800}
                   height={800}

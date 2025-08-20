@@ -1,8 +1,8 @@
 
-import project_img_1 from "../../public/assets/img/project/project-inner-1.jpg";
-import project_img_2 from "../../public/assets/img/project/project-inner-1.jpg";
-import project_img_3 from "../../public/assets/img/project/project-inner-1.jpg";
-import project_img_4 from "../../public/assets/img/project/project-inner-1.jpg";
+import project_img_1 from "../../public/assets/img/lysa/remoteDba/we-can-do-it-all.webp";
+import project_img_2 from "../../public/assets/img/lysa/remoteDba/database-performance.webp";
+import project_img_3 from "../../public/assets/img/lysa/remoteDba/24-7-monitoring.webp";
+import project_img_4 from "../../public/assets/img/lysa/remoteDba/advice.webp";
 
 const work_data = [
     {

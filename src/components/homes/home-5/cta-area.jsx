@@ -1,6 +1,6 @@
 import React from 'react';
 
-import plan_img_1 from "../../../../public/assets/img/lysa/home/thrive-anywhere.jpg"
+import plan_img_1 from "../../../../public/assets/img/lysa/home/thrive-anywhere.webp"
 import plan_img_2 from "../../../../public/assets/img/plan/plan-2.png"
 import plan_img_3 from "../../../../public/assets/img/plan/plan-3.png"
 import plan_img_4 from "../../../../public/assets/img/plan/plan-4.png"

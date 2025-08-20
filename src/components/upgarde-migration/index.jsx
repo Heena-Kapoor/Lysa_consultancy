@@ -92,6 +92,7 @@ const Upgrade = () => {
                 desc={
                   "Whether you need to move from one database to a different database, from one version to another, from on-premises to the cloud, or from one data center to another, upgrade and migrate with confidence with LYSA’s tested and trusted database services."
                 }
+                bgImage="/assets/img/lysa/upgration-migration/upgration-migration-banner.webp"
               />
               <Migration />
               <DatabaseMigrationProcess />
