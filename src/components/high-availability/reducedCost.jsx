@@ -53,7 +53,7 @@ const ReducedCost = ({ style_service }) => {
             >
               <div className="tp-sales-img-wrapper p-relative text-end">
                 <Image
-                  src="/assets/img/card/card-bg.png"
+                  src="/assets/img/lysa/high-available/integrated-comprehensive.webp"
                   alt="theme-pure"
                   width={800}
                   height={800}

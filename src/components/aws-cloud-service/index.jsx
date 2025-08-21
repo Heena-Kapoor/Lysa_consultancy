@@ -77,6 +77,9 @@ const AwsCloud = () => {
                 desc={
                   "With LYSA CONSULTANCY's secure and scalable AWS cloud Services, you can HIRE US For the Foundation Of Your Digital Success."
                 }
+                bgImage="/assets/img/lysa/aws/banner.webp"
+                hasBlueBg={false}
+                height="620px"
               />
               <AWSservice />
               <Experience />

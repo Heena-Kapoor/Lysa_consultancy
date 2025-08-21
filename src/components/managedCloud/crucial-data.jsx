@@ -56,7 +56,7 @@ const CrucialData = ({ style_service }) => {
             >
               <div className="tp-sales-img-wrapper p-relative text-end">
                 <Image
-                  src="/assets/img/card/card-bg.png"
+                  src="/assets/img/lysa/managed-cloud/_cloud-infrastructure-management.webp"
                   alt="theme-pure"
                   width={800}
                   height={800}

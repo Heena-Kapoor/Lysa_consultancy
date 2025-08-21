@@ -26,7 +26,6 @@ const ManagedCloud = () => {
           <Loader />
         ) : (
           <>
-            
             <HeaderFive />
             <main>
               <BreadcrumbEight
@@ -39,6 +38,9 @@ const ManagedCloud = () => {
                 desc={
                   "Gain a competitive edge with end-to-end managed cloud database services! Capitalize on the full potential of your cloud infrastructure operations with LYSA. Our managed cloud database services ensure that every component of your cloud environment pulls its weight."
                 }
+                bgImage="/assets/img/lysa/managed-cloud/managed-cloud-database-banner.webp"
+                hasBlueBg={false}
+                height="600px"
               />
               <Whychoose style_carrer={true} />
               <CrucialData />

@@ -11,7 +11,7 @@ const { sub_title, title, description } = platform_content;
 const platform_data = [
   {
     id: 1,
-    icon: "/assets/img/blog/image.jpg",
+    icon: "/assets/img/lysa/managed-cloud/robust-infrastructure.webp",
     tag: "Robust Infrastructure",
     title: "Robust Infrastructure",
     des: (
@@ -25,7 +25,7 @@ const platform_data = [
   },
   {
     id: 2,
-    icon: "/assets/img/blog/image.jpg",
+    icon: "/assets/img/lysa/managed-cloud/data-saftey-recovery.webp",
     tag: "Data Safety and Recovery",
     title: "Data Safety and Recovery",
     des: (
@@ -39,7 +39,7 @@ const platform_data = [
   },
   {
     id: 3,
-    icon: "/assets/img/blog/image.jpg",
+    icon: "/assets/img/lysa/managed-cloud/quick-response-time.webp",
     tag: "Quick Response Time",
     title: "Quick Response Time",
     des: (
@@ -53,7 +53,7 @@ const platform_data = [
   },
   {
     id: 4,
-    icon: "/assets/img/blog/image.jpg",
+    icon: "/assets/img/lysa/managed-cloud/interfacing.webp",
     tag: "Interfacing",
     title: "Interfacing",
     des: (
@@ -67,7 +67,7 @@ const platform_data = [
   },
   {
     id: 5,
-    icon: "/assets/img/blog/image.jpg",
+    icon: "/assets/img/lysa/managed-cloud/planned-investment.webp",
     tag: "Planned Investment",
     title: "Planned Investment",
     des: (

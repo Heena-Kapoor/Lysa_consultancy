@@ -1,7 +1,21 @@
 // thumb img import here 
-import thumb_img_1 from "../../public/assets/img/project/project-inner-1.jpg";
-import thumb_img_2 from "../../public/assets/img/project/project-inner-2.jpg";
-import thumb_img_3 from "../../public/assets/img/project/project-inner-3.jpg";
+import thumb_img_1 from "../../public/assets/img/lysa/aws/ec2.webp";
+import thumb_img_2 from "../../public/assets/img/lysa/aws/s3.webp";
+import thumb_img_3 from "../../public/assets/img/lysa/aws/vpc.webp";
+import thumb_img_4 from "../../public/assets/img/lysa/aws/cloud-watch.webp";
+import thumb_img_5 from "../../public/assets/img/lysa/aws/cloud-trail.webp";
+import thumb_img_6 from "../../public/assets/img/lysa/aws/efs.webp";
+import thumb_img_7 from "../../public/assets/img/lysa/aws/352x325.webp";
+import thumb_img_8 from "../../public/assets/img/lysa/aws/control-tower.webp";
+import thumb_img_9 from "../../public/assets/img/lysa/aws/organisation.webp";
+import thumb_img_10 from "../../public/assets/img/lysa/aws/rds.webp";
+import thumb_img_11 from "../../public/assets/img/lysa/aws/dms.webp";
+import thumb_img_12 from "../../public/assets/img/lysa/aws/ebs.webp";
+import thumb_img_13 from "../../public/assets/img/lysa/aws/route-53.webp";
+import thumb_img_14 from "../../public/assets/img/lysa/aws/cloud-font.webp";
+import thumb_img_15 from "../../public/assets/img/lysa/aws/load-balancer.webp";
+import thumb_img_16 from "../../public/assets/img/lysa/aws/sns.webp";
+import thumb_img_17 from "../../public/assets/img/lysa/aws/iam.webp";
 // brand logo import here
 import brand_logo_1 from "../../public/assets/img/project/project-inner-brand-1.png";
 import brand_logo_2 from "../../public/assets/img/project/project-inner-brand-2.png";
@@ -38,7 +52,7 @@ const awsService_data = [
     },
     {
         id: 4,
-        thumb_img: thumb_img_3,
+        thumb_img: thumb_img_4,
         brand_logo: brand_logo_3,
         job_title: "CloudWatch",
         title: <>CloudWatch</>,
@@ -47,7 +61,7 @@ const awsService_data = [
     },
     {
         id: 5,
-        thumb_img: thumb_img_3,
+        thumb_img: thumb_img_5,
         brand_logo: brand_logo_3,
         job_title: "CloudTrail",
         title: <>CloudTrail</>,
@@ -56,7 +70,7 @@ const awsService_data = [
     },
     {
         id: 6,
-        thumb_img: thumb_img_3,
+        thumb_img: thumb_img_6,
         brand_logo: brand_logo_3,
         job_title: "EFS",
         title: <>EFS (Elastic File System)</>,
@@ -65,7 +79,7 @@ const awsService_data = [
     },
     {
         id: 7,
-        thumb_img: thumb_img_3,
+        thumb_img: thumb_img_7,
         brand_logo: brand_logo_3,
         job_title: "ECS",
         title: <>ECS (Elastic Container Service)</>,
@@ -74,7 +88,7 @@ const awsService_data = [
     },
     {
         id: 8,
-        thumb_img: thumb_img_3,
+        thumb_img: thumb_img_8,
         brand_logo: brand_logo_3,
         job_title: "Control Tower",
         title: <>Control Tower</>,
@@ -83,7 +97,7 @@ const awsService_data = [
     },
     {
         id: 9,
-        thumb_img: thumb_img_3,
+        thumb_img: thumb_img_9,
         brand_logo: brand_logo_3,
         job_title: "Organization",
         title: <>Organization</>,
@@ -92,7 +106,7 @@ const awsService_data = [
     },
     {
         id: 10,
-        thumb_img: thumb_img_3,
+        thumb_img: thumb_img_10,
         brand_logo: brand_logo_3,
         job_title: "RDS (Relational Database Service)",
         title: <>RDS (Relational Database Service)</>,
@@ -101,7 +115,7 @@ const awsService_data = [
     },
     {
         id: 11,
-        thumb_img: thumb_img_3,
+        thumb_img: thumb_img_11,
         brand_logo: brand_logo_3,
         job_title: "Database Migration Service",
         title: <>Database Migration Service</>,
@@ -110,7 +124,7 @@ const awsService_data = [
     },
     {
         id: 12,
-        thumb_img: thumb_img_3,
+        thumb_img: thumb_img_12,
         brand_logo: brand_logo_3,
         job_title: "EBS (Elastic Block Store)",
         title: <>EBS (Elastic Block Store)</>,
@@ -119,7 +133,7 @@ const awsService_data = [
     },
     {
         id: 13,
-        thumb_img: thumb_img_3,
+        thumb_img: thumb_img_13,
         brand_logo: brand_logo_3,
         job_title: "Route 53",
         title: <>Route 53</>,
@@ -128,7 +142,7 @@ const awsService_data = [
     },
     {
         id: 14,
-        thumb_img: thumb_img_3,
+        thumb_img: thumb_img_14,
         brand_logo: brand_logo_3,
         job_title: "Cloud Front",
         title: <>Cloud Front</>,
@@ -137,7 +151,7 @@ const awsService_data = [
     },
     {
         id: 15,
-        thumb_img: thumb_img_3,
+        thumb_img: thumb_img_15,
         brand_logo: brand_logo_3,
         job_title: "Load Balancer",
         title: <>Load Balancer</>,
@@ -146,7 +160,7 @@ const awsService_data = [
     },
     {
         id: 16,
-        thumb_img: thumb_img_3,
+        thumb_img: thumb_img_16,
         brand_logo: brand_logo_3,
         job_title: "SNS",
         title: <>SNS (Simple Notification Service)</>,
@@ -155,7 +169,7 @@ const awsService_data = [
     },
     {
         id: 17,
-        thumb_img: thumb_img_3,
+        thumb_img: thumb_img_17,
         brand_logo: brand_logo_3,
         job_title: "IAM",
         title: <>IAM (Identity and Access Management)</>,

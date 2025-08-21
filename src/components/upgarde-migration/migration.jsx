@@ -25,7 +25,7 @@ const { sub_title, title, dub_title, description } = sales_content;
 const Migration = ({ style_service }) => {
   return (
     <>
-      <div className="tp-sales-area pt-70 pb-70">
+      <div className="tp-sales-area pt-10 pb-70">
         <div className="container">
           <div className="row align-items-center">
             <div

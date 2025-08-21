@@ -5,25 +5,25 @@ const steps = [
     title: "Know the score with Client Management",
     description:
       "You will have your own customer portal, regular reviews and reporting, a dedicated account manager, and round-the-clock support.",
-    icon: "/assets/img/security/security-1.png",
+    icon: "/assets/img/lysa/managed-cloud/client-management.webp",
   },
   {
     title: "Stay on top with Alerting And Monitoring",
     description:
       "You can feel secure as we monitor your apps and infrastructure, with incident response, log data mining, and proactive alerts.",
-    icon: "/assets/img/security/security-1.png",
+    icon: "/assets/img/lysa/managed-cloud/alerting-monitoring.webp",
   },
   {
     title: "Tune up with Performance And Cost Optimization",
     description:
       "We will look after your app performance and cloud usage, your FinOps, and capacity planning. You look after your business.",
-    icon: "/assets/img/security/security-1.png",
+    icon: "/assets/img/lysa/managed-cloud/performance-cost-optimization.webp",
   },
   {
     title: "Prevail with Tools & Managed Services Automation",
     description:
       "From automated provisioning, identity access management (IAM), and asset management to release and service delivery management, container and configuration management, and many more, we’re on it.",
-    icon: "/assets/img/security/security-1.png",
+    icon: "/assets/img/lysa/managed-cloud/managed-service-automation.webp",
   },
 ];
 

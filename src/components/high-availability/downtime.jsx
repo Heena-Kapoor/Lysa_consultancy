@@ -39,7 +39,7 @@ const DowntimeArea = ({ style_service, spacing = "pt-80 pb-30" }) => {
               <div className="tp-card-thumb-wrapper p-relative">
                 <div className={`tp-card`}>
                   <Image
-                    src="/assets/img/card/card-bg.png"
+                    src="/assets/img/lysa/high-available/minimize-all-downtime.webp"
                     alt="theme-pure"
                     width={800}
                     height={800}

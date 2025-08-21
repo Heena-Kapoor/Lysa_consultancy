@@ -3,12 +3,12 @@ import Image from "next/image";
 
 const cta_content = {
   img_box: [
-    { id: 1, img: "/assets/img/plan/plan-1.png", cls: "1" },
-    { id: 2, img: "/assets/img/plan/plan-2.png", cls: "2 d-none d-sm-block" },
-    { id: 3, img: "/assets/img/plan/plan-3.png", cls: "3 d-none d-sm-block" },
-    { id: 4, img: "/assets/img/plan/plan-4.png", cls: "4" },
-    { id: 5, img: "/assets/img/plan/plan-5.png", cls: "5" },
-    { id: 6, img: "/assets/img/plan/plan-6.png", cls: "6" },
+    { id: 1, img: "/assets/img/lysa/aws/aws-services-lysa.webp" },
+    // { id: 2, img: "/assets/img/plan/plan-2.png", cls: "2 d-none d-sm-block" },
+    // { id: 3, img: "/assets/img/plan/plan-3.png", cls: "3 d-none d-sm-block" },
+    // { id: 4, img: "/assets/img/plan/plan-4.png", cls: "4" },
+    // { id: 5, img: "/assets/img/plan/plan-5.png", cls: "5" },
+    // { id: 6, img: "/assets/img/plan/plan-6.png", cls: "6" },
   ],
   title: (
     <>
@@ -33,7 +33,7 @@ const { img_box, sub_title, title, des, feature_list } = cta_content;
 const AWSservice = () => {
   return (
     <>
-      <div className="tp-plan-area pt-60 pb-20">
+      <div className="tp-plan-area pt-5 pb-20">
         <div className="container">
           <div className="row align-items-center">
             <div
@@ -42,16 +42,12 @@ const AWSservice = () => {
               data-wow-delay=".3s"
             >
               <div className="tp-plan-img-box p-relative">
-                {img_box.map((item, i) => (
-                  <div key={i} className={`tp-plan-img-${item.cls}`}>
-                    <Image
-                      src={item.img}
-                      alt="theme-pure"
-                      height={250}
-                      width={250}
-                    />
-                  </div>
-                ))}
+                <Image
+                  src="/assets/img/lysa/aws/aws-services-lysa.webp"
+                  alt="theme-pure"
+                  height={600}
+                  width={600}
+                />
               </div>
             </div>
             <div

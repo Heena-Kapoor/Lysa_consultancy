@@ -80,6 +80,8 @@ const RemoteDBAsupport = () => {
                   "To manage your on-premises deployments, our Remote DBA Support offers database management and 24x7 coverage. Our services include Oracle, MySQL, PostgreSQL, and MongoDB."
                 }
                 bgImage="/assets/img/lysa/remoteDba/remote-dba-banner1.webp"
+                hasBlueBg={false}
+                height="590px"
               />
               <SloutionArea style_carrer={true} />
               <SliderArea

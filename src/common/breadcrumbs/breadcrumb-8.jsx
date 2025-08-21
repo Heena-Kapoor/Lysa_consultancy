@@ -7,17 +7,27 @@ import shape_1 from "@/assets/img/breadcrumb/breadcrumb-shape-1.png";
 import shape_2 from "@/assets/img/breadcrumb/breadcrumb-shape-2.png";
 import PhoneFour from "@/svg/phone-4";
 
-const BreadcrumbEight = ({ spanText, title, desc, bgImage }) => {
+const BreadcrumbEight = ({
+  spanText,
+  title,
+  desc,
+  bgImage,
+  hasBlueBg = true,
+  height,
+}) => {
   const { animeRef } = useBreadcrumbTitleAnime();
   return (
     <>
       <div
-        className="breadcrumb__area pt-80 pb-10 p-relative fix blue-bg-2"
+        className={`breadcrumb__area pt-80 pb-10 p-relative fix ${
+          hasBlueBg ? "blue-bg-2" : ""
+        }`}
         style={{
           backgroundImage: `url(${bgImage})`,
-          backgroundSize: "cover",
+          backgroundSize: "contain",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
+          height: height || "auto",
         }}
       >
         <div className="breadcrumb__shape-1">
@@ -43,13 +53,13 @@ const BreadcrumbEight = ({ spanText, title, desc, bgImage }) => {
                   </h3>
                   <div className="row g-0 z-index-3 align-items-center justify-content-between mb-40">
                     {/* Left Column: Paragraph Text */}
-                    <div className="col-xl-8 col-lg-8 col-md-12 mb-3 mb-md-0">
+                    <div className="col-xl-7 col-lg-7 col-md-12 mb-3 mb-md-0">
                       <p className="text-white mb-0">{desc}</p>
                     </div>
 
                     {/* Right Column: Contact Info */}
-                    <div className="col-xl-4 col-lg-4 col-md-12">
-                      <div className="breadcrumb__client-info d-flex flex-column flex-lg-row align-items-start align-items-lg-center justify-content-lg-end gap-3 mt-3 mt-lg-0">
+                    <div className="col-xl-12 col-lg-12 col-md-12">
+                      <div className="breadcrumb__client-info d-flex flex-column flex-lg-row align-items-start align-items-lg-center justify-content-lg-start gap-3 mt-3 mt-lg-0 pt-10">
                         <span className="text-white mb-0">
                           Call for any question
                           <br />

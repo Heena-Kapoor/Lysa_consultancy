@@ -88,6 +88,9 @@ const HighAvailibilty = () => {
                 desc={
                   "Eliminate the risk of failure and ensure maximum uptime with LYSA’S high availability capabilities! LYSA has exclusive expertise in designing, implementing, and managing a high-availability architecture seamlessly."
                 }
+                bgImage="/assets/img/lysa/high-available/high-availability-database-service-banner.webp"
+                hasBlueBg={false}
+                height="620px"
               />
               <SliderArea
                 subtitle={"High Available Technology"}
