@@ -1,7 +1,17 @@
 // thumb img import here 
-import thumb_img_1 from "../../public/assets/img/project/project-inner-1.jpg";
-import thumb_img_2 from "../../public/assets/img/project/project-inner-2.jpg";
-import thumb_img_3 from "../../public/assets/img/project/project-inner-3.jpg";
+import thumb_img_1 from "../../public/assets/img/lysa/google-cloud/compute-engine.webp";
+import thumb_img_2 from "../../public/assets/img/lysa/google-cloud/cloud-storage.webp";
+import thumb_img_3 from "../../public/assets/img/lysa/google-cloud/vpc.webp";
+import thumb_img_4 from "../../public/assets/img/lysa/google-cloud/stackdriver-monitoring.webp";
+import thumb_img_5 from "../../public/assets/img/lysa/google-cloud/cloud-logging.webp";
+import thumb_img_6 from "../../public/assets/img/lysa/google-cloud/file-store.webp";
+import thumb_img_7 from "../../public/assets/img/lysa/google-cloud/container-engine.webp";
+import thumb_img_8 from "../../public/assets/img/lysa/google-cloud/cloud-sql.webp";
+import thumb_img_9 from "../../public/assets/img/lysa/google-cloud/dms.webp";
+import thumb_img_10 from "../../public/assets/img/lysa/google-cloud/persistent.webp";
+import thumb_img_11 from "../../public/assets/img/lysa/google-cloud/dns.webp";
+import thumb_img_12 from "../../public/assets/img/lysa/google-cloud/load-balancer.webp";
+import thumb_img_13 from "../../public/assets/img/lysa/google-cloud/iam.webp";
 // brand logo import here
 import brand_logo_1 from "../../public/assets/img/project/project-inner-brand-1.png";
 import brand_logo_2 from "../../public/assets/img/project/project-inner-brand-2.png";
@@ -38,7 +48,7 @@ const gcpService_data = [
     },
     {
         id: 4,
-        thumb_img: thumb_img_3,
+        thumb_img: thumb_img_4,
         brand_logo: brand_logo_3,
         job_title: "Stackdriver Monitoring",
         title: <>Stackdriver Monitoring</>,
@@ -47,7 +57,7 @@ const gcpService_data = [
     },
     {
         id: 5,
-        thumb_img: thumb_img_3,
+        thumb_img: thumb_img_5,
         brand_logo: brand_logo_3,
         job_title: "Cloud Logging",
         title: <>Cloud Logging</>,
@@ -56,7 +66,7 @@ const gcpService_data = [
     },
     {
         id: 6,
-        thumb_img: thumb_img_3,
+        thumb_img: thumb_img_6,
         brand_logo: brand_logo_3,
         job_title: "File Store",
         title: <>File Store</>,
@@ -65,7 +75,7 @@ const gcpService_data = [
     },
     {
         id: 7,
-        thumb_img: thumb_img_3,
+        thumb_img: thumb_img_7,
         brand_logo: brand_logo_3,
         job_title: "Container Engine",
         title: <>Container Engine</>,
@@ -74,7 +84,7 @@ const gcpService_data = [
     },
     {
         id: 8,
-        thumb_img: thumb_img_3,
+        thumb_img: thumb_img_8,
         brand_logo: brand_logo_3,
         job_title: "Cloud SQL",
         title: <>Cloud SQL</>,
@@ -83,7 +93,7 @@ const gcpService_data = [
     },
     {
         id: 9,
-        thumb_img: thumb_img_3,
+        thumb_img: thumb_img_9,
         brand_logo: brand_logo_3,
         job_title: "DMS",
         title: <>DMS (Database Migration Service)</>,
@@ -92,7 +102,7 @@ const gcpService_data = [
     },
     {
         id: 10,
-        thumb_img: thumb_img_3,
+        thumb_img: thumb_img_10,
         brand_logo: brand_logo_3,
         job_title: "Persistent Disk",
         title: <>Persistent Disk</>,
@@ -101,7 +111,7 @@ const gcpService_data = [
     },
     {
         id: 11,
-        thumb_img: thumb_img_3,
+        thumb_img: thumb_img_11,
         brand_logo: brand_logo_3,
         job_title: "Cloud DNS",
         title: <>Cloud DNS</>,
@@ -110,7 +120,7 @@ const gcpService_data = [
     },
     {
         id: 12,
-        thumb_img: thumb_img_3,
+        thumb_img: thumb_img_12,
         brand_logo: brand_logo_3,
         job_title: "Load Balancer",
         title: <>Load Balancer</>,
@@ -119,7 +129,7 @@ const gcpService_data = [
     },
     {
         id: 13,
-        thumb_img: thumb_img_3,
+        thumb_img: thumb_img_13,
         brand_logo: brand_logo_3,
         job_title: "IAM",
         title: <>IAM (Identity and Access Management)</>,

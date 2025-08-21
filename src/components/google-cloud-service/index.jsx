@@ -27,20 +27,21 @@ const GoogleCloudService = () => {
           <Loader />
         ) : (
           <>
-            
             <HeaderFive />
             <main>
               <BreadcrumbEight
                 spanText={"Google Cloud Services"}
                 title={
                   <>
-                    A Seamless <br /> Migration to <br /> Google Cloud <br />{" "}
-                    Services!
+                    A Seamless <br /> Migration to <br /> Google Cloud Services!
                   </>
                 }
                 desc={
                   "Migrate and run your business on Google Cloud services seamlessly with managed cloud and application services from a reputable and credible partner and a google cloud platform, LYSA."
                 }
+                bgImage="/assets/img/lysa/google-cloud/google-cloud-banner.webp"
+                hasBlueBg={false}
+                height="600px"
               />
               <LysaProcess />
               <GCPservice />

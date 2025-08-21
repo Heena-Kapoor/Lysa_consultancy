@@ -55,7 +55,7 @@ const GCPservice = ({ style_service }) => {
             >
               <div className="tp-sales-img-wrapper p-relative text-end">
                 <Image
-                  src="/assets/img/services/devops1.png"
+                  src="/assets/img/lysa/google-cloud/lysa-google-cloud.webp"
                   alt="theme-pure"
                   width={550}
                   height={550}

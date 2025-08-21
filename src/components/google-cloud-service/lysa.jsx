@@ -6,23 +6,23 @@ const LysaProcess = () => {
       title: "Doing an Assessment",
       description:
         "Before you start, you will need to evaluate your current landscape, including third-party interfaces, integrations, and legacy products.",
-      icon: "/assets/img/security/security-1.png",
+      icon: "/assets/img/lysa/google-cloud/doing-assessment.webp",
     },
     {
       title: "Comprehending your Migration Approaches",
       description:
         "Modification? Lift and shift? Rip and replace? Each workload will need a different migration strategy.",
-      icon: "/assets/img/security/security-1.png",
+      icon: "/assets/img/lysa/google-cloud/migration-approaches.webp",
     },
     {
       title: "Comprehending your Workloads",
       description: "Determine the kinds of workloads that need to be migrated.",
-      icon: "/assets/img/security/security-1.png",
+      icon: "/assets/img/lysa/google-cloud/comprehending-workloads.webp",
     },
     {
       title: "Planning your Journey",
       description: "Create a roadmap, including timelines, costs, and risks.",
-      icon: "/assets/img/security/security-1.png",
+      icon: "/assets/img/lysa/google-cloud/planning-journey.webp",
     },
   ];
 
