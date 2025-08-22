@@ -30,7 +30,7 @@ const GoogleCloudService = () => {
             <HeaderFive />
             <main>
               <BreadcrumbEight
-                spanText={"Google Cloud Services"}
+                spanText={"Google\u00A0\u00A0Cloud\u00A0\u00A0Services"}
                 title={
                   <>
                     A Seamless <br /> Migration to <br /> Google Cloud Services!

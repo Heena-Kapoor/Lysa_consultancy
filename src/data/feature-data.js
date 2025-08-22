@@ -43,7 +43,7 @@ const feature_data = [
         description: <>
             Our database care and application performance monitoring tools, created by delivery experts, quickly and affordably fix issues before they disrupt operations.
         </>,
-        link: "/database-services"
+        link: "#"
     },
 ]
 export default feature_data

@@ -23,9 +23,13 @@ const FAQ = () => {
           <Loader />
         ) : (
           <>
-            
             <HeaderFive />
-            <BreadcrumbNew title={"Help & FAQs"} />
+            <BreadcrumbNew
+              title={"Help & FAQs"}
+              bgImage="/assets/img/lysa/faq-banner.webp"
+              hasBlueBg={false}
+              height="460px"
+            />
             <FaqArea style_service={true} />
             <CtaArea />
             <FooterFive style_contact={true} style_team={true} />

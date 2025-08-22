@@ -25,7 +25,7 @@ const menu_data = [
     sub_menus: [
       {
         title: "Database Services",
-        link: "/database-services",
+        link: "#",
         has_dropdown: true,
         sub_menus: [
           { link: "/remote-dba-support", title: "Remote DBA Support" },
@@ -36,7 +36,7 @@ const menu_data = [
       },
       {
         title: "Cloud Services",
-        link: "/cloud-services",
+        link: "#",
         has_dropdown: true,
         sub_menus: [
           { link: "/aws-cloud-service", title: "AWS" },

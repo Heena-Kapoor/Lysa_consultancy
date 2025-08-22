@@ -14,7 +14,7 @@ const service_data = [
         description: <>Reliable Remote DBA support, seamless upgrades, and cloud-managed databases.
             Ensure high availability and performance for your critical systems.</>,
         delay: ".4s",
-        link: "/database-services"
+        link: "#"
     },
     {
         id: 2,
@@ -23,7 +23,7 @@ const service_data = [
         title: "Cloud Services",
         description: <>Harness the power of AWS and Google Cloud with our expert solutions. Seamlessly migrate your infrastructure to the cloud with confidence.</>,
         delay: ".6s",
-        link: "/cloud-services"
+        link: "#"
     },
     {
         id: 3,

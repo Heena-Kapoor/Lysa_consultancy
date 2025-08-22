@@ -1,25 +1,13 @@
 
 
 // thumb img import here 
-import thumb_img_1 from "../../public/assets/img/project/project-inner-1.jpg";
-import thumb_img_2 from "../../public/assets/img/project/project-inner-2.jpg";
-import thumb_img_3 from "../../public/assets/img/project/project-inner-3.jpg";
-import thumb_img_4 from "../../public/assets/img/project/project-inner-5.jpg";
-import thumb_img_5 from "../../public/assets/img/project/project-inner-4.jpg";
-import thumb_img_6 from "../../public/assets/img/project/project-inner-6.jpg";
-import thumb_img_7 from "../../public/assets/img/project/project-inner-7.jpg";
-import thumb_img_8 from "../../public/assets/img/project/project-inner-8.jpg";
-import thumb_img_9 from "../../public/assets/img/project/project-inner-9.jpg";
+import thumb_img_1 from "../../public/assets/img/lysa/devOps/jekins.webp";
+import thumb_img_2 from "../../public/assets/img/lysa/devOps/dockers.webp";
+import thumb_img_3 from "../../public/assets/img/lysa/devOps/kubernets.webp";
 // brand logo import here
 import brand_logo_1 from "../../public/assets/img/project/project-inner-brand-1.png";
 import brand_logo_2 from "../../public/assets/img/project/project-inner-brand-2.png";
 import brand_logo_3 from "../../public/assets/img/project/project-inner-brand-3.png";
-import brand_logo_4 from "../../public/assets/img/project/project-inner-brand-5.png";
-import brand_logo_5 from "../../public/assets/img/project/project-inner-brand-4.png";
-import brand_logo_6 from "../../public/assets/img/project/project-inner-brand-6.png";
-import brand_logo_7 from "../../public/assets/img/project/project-inner-brand-5.png";
-import brand_logo_8 from "../../public/assets/img/project/project-inner-brand-4.png";
-import brand_logo_9 from "../../public/assets/img/project/project-inner-brand-6.png";
 
 
 const devopsLysa_data = [

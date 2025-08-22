@@ -59,7 +59,7 @@ const EnsureLong = ({ style_service }) => {
             >
               <div className="tp-sales-img-wrapper p-relative text-end">
                 <Image
-                  src="/assets/img/services/devops1.png"
+                  src="/assets/img/lysa/cloudMigration/cloud-migration-lysa.webp"
                   alt="theme-pure"
                   width={550}
                   height={550}

@@ -49,7 +49,7 @@ const GetResult = ({ style_service }) => {
             >
               <div className="tp-sales-img-wrapper p-relative text-end">
                 <Image
-                  src="/assets/img/services/devops1.png"
+                  src="/assets/img/lysa/devOps/devops-consulting-services.webp"
                   alt="theme-pure"
                   width={550}
                   height={550}

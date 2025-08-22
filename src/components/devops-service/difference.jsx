@@ -42,7 +42,7 @@ const { img_box, sub_title, title, des, feature_list } = cta_content;
 const DiffrenceArea = () => {
   return (
     <>
-      <div className="tp-plan-area pt-60 pb-20">
+      <div className="tp-plan-area pt-10 pb-20">
         <div className="container">
           <div className="row align-items-center">
             <div
@@ -51,16 +51,12 @@ const DiffrenceArea = () => {
               data-wow-delay=".3s"
             >
               <div className="tp-plan-img-box p-relative">
-                {img_box.map((item, i) => (
-                  <div key={i} className={`tp-plan-img-${item.cls}`}>
-                    <Image
-                      src={item.img}
-                      alt="theme-pure"
-                      height={200}
-                      width={200}
-                    />
-                  </div>
-                ))}
+                <Image
+                  src="/assets/img/lysa/devOps/streamline-fill-gaps-automate.webp"
+                  alt="theme-pure"
+                  height={600}
+                  width={600}
+                />
               </div>
             </div>
             <div

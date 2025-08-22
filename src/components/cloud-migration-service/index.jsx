@@ -68,13 +68,16 @@ const CloundMigration = () => {
                 spanText={"AWS Cloud Services"}
                 title={
                   <>
-                    Fulfill maximum <br /> ROI with our <br /> Expert Cloud{" "}
-                    <br /> Migration Services
+                    Fulfill maximum ROI <br /> with our Expert <br /> Cloud
+                    Migration Services
                   </>
                 }
                 desc={
                   "With LYSA’s extensive cloud expertise, you will avert potential pitfalls and successfully attain your cloud migration objectives."
                 }
+                bgImage="/assets/img/lysa/cloudMigration/cloud-migration-banner.webp"
+                hasBlueBg={false}
+                height="620px"
               />
               <CloudExperience />
               <EnsureLong />

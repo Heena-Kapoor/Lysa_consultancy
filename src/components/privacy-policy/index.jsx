@@ -21,10 +21,14 @@ const PrivacyPolicy = () => {
           <Loader />
         ) : (
           <>
-            
             <HeaderFive />
             <main>
-              <BreadcrumbNew title={"Privacy Policy"} />
+              <BreadcrumbNew
+                title={"Privacy Policy"}
+                bgImage="/assets/img/lysa/privacy-policy.webp"
+                hasBlueBg={false}
+                height="460px"
+              />
               <ServiceDetailsArea />
             </main>
             <FooterFive style_contact={true} style_team={true} />

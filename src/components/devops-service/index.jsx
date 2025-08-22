@@ -64,8 +64,7 @@ const DevOps = () => {
   let dynamicHeight;
   if (width < 280) {
     dynamicHeight = "340px";
-  }
-  else if (width >= 280 && width <= 378) {
+  } else if (width >= 280 && width <= 378) {
     dynamicHeight = "300px";
   } else if (width >= 378 && width <= 570) {
     dynamicHeight = "240px";
@@ -86,13 +85,18 @@ const DevOps = () => {
                 spanText={"DevOps"}
                 title={
                   <>
-                    Speed up <br /> Business with <br /> DevOps Consulting{" "}
-                    <br /> Services
+                    Speed up Business
+                    <br /> with DevOps
+                    <br />
+                    Consulting Services
                   </>
                 }
                 desc={
                   "Our DevOps Consulting Services, increase the pace of your innovation and accelerate speed to market for a competitive advantage."
                 }
+                bgImage="/assets/img/lysa/devOps/dev-ops-banner.webp"
+                hasBlueBg={false}
+                height="620px"
               />
               <DiffrenceArea />
               <PerksGain />

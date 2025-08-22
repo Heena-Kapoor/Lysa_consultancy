@@ -23,12 +23,16 @@ const Contact = () => {
           <Loader />
         ) : (
           <>
-            
             <HeaderFive />
             <div id="smooth-wrapper">
               <div id="smooth-content">
                 <main>
-                  <BreadcrumbNew title={"Contact Us"} />
+                  <BreadcrumbNew
+                    title={"Contact Us"}
+                    bgImage="/assets/img/lysa/contact-us.webp"
+                    hasBlueBg={false}
+                    height="460px"
+                  />
                   <ContactInner />
                   <ContactFormArea />
                 </main>
