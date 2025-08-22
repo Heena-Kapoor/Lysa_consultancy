@@ -23,7 +23,7 @@ const BreadcrumbNew = ({ title, bgImage, height, hasBlueBg = true }) => {
         }`}
         style={{
           backgroundImage: `url(${bgImage})`,
-          backgroundSize: "contain",
+          backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
           height: height || "auto",

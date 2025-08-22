@@ -16,6 +16,7 @@ const BreadcrumbEight = ({
   height,
 }) => {
   const { animeRef } = useBreadcrumbTitleAnime();
+  const isMobile = typeof window !== "undefined" && window.innerWidth < 768;
   return (
     <>
       <div
@@ -24,10 +25,11 @@ const BreadcrumbEight = ({
         }`}
         style={{
           backgroundImage: `url(${bgImage})`,
-          backgroundSize: "contain",
+          backgroundSize: isMobile ? "cover" : "contain",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
           height: height || "auto",
+          marginBottom: isMobile ? "30px" : "0px",
         }}
       >
         <div className="breadcrumb__shape-1">
